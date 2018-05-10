@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>我的客服</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/myservice.css?v=1"/>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+	<!--header-->
+	<article>
+		<ul>
+			<li data-flag="true">
+				<h4>押金退款 <span><img src="img/downPath.png"/></span></h4>
+				<div class="content" style="display: none;">
+					 尊敬的忠实用户，您可以打开APP端，点击左上角小人物【我的钱包】-【我的押金】-【押金退款】，操作结束后，押金会在会在<i>4个工作日</i>退还至您的原支付账户。
+				</div>
+			</li>
+			<li data-flag="true">
+				<h4>认证 <span><img src="img/downPath.png"/></span></h4>
+				<div class="content" style="display: none;">
+					亲爱的摩宝主人,注册后在认证步骤中提交信息,或点击左上方小人头像,进入个人中心点击信息认证。
+				</div>
+			</li>
+			<li data-flag="true">
+				<h4>紧急事件 <span><img src="img/downPath.png"/></span></h4>
+				<div class="content" style="display: none;">
+					亲爱的摩宝主人,物品遗失请您第一时间联系我们的客服人员,我们会尽最大努力帮您寻找;<i>温馨提示:使用完宝盒后,请检查随身物品,避免损失。</i>
+				</div>
+			</li>
+			<li data-flag="true">
+				<h4>用房相关规定 <span><img src="img/downPath.png"/></span></h4>
+				<div class="content" style="display: none;">
+					亲爱的摩宝主人,宝盒使用者年龄需要在<i>14周岁-60周岁</i>之间才可使用摩宝宝盒。摩宝宝盒的计费规则为:预约成功或扫码开锁即开始计费,入住后10元/时,不满一小时的按一小时计费,请放心使用。
+				</div>
+			</li>			
+		</ul>	
+	</article>	
+	<section>
+		<a class="serviceOnlive" href="tel:110">
+			<img src="img/service@2x.png"/>
+			联系客服
+		</a>
+		<!--<a class="callPhone" href="tel:110">电话客服</a>-->
+	</section>
+</body>
+<script src="js/zepto.js"></script>
+<script src="js/touch.js"></script>
+<script>	
+	$('ul li').on('tap',function(){		
+		var flag = $(this).attr('data-flag');
+		if (flag=="true") {
+			$(this).find('img').attr('src',"img/upPath.png");
+			$(this).find('.content').show();
+			$(this).css({"background":"#f9f9f9"});
+			$(this).find("h4").css({"font-size":"0.32rem","color":"#333333"})
+			$(this).attr('data-flag',false);
+		}else if(flag=="false"){
+			$(this).find('img').attr('src',"img/downPath.png");
+			$(this).find('.content').hide();
+			$(this).find("h4").css({"font-size":"0.28rem","color":"#666666"})
+			$(this).css({"background":"#ffffff"});
+			$(this).attr('data-flag',true);
+		}		
+	});
+</script>
+</html>

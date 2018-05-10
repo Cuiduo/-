@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="x5-orientation" content="portrait">
+		<title>消息详情</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<script src="js/jquery.js"></script>
+		<style>
+			p{
+				text-align: center;				
+			}
+			.pbtn{
+				/*position: fixed;*/
+				width: 100%;
+				/*bottom: 0;*/
+				background: #FFFFFF;
+			}
+			p img{
+				width: 100%;
+				padding-bottom: 0.2rem;
+			}
+			h4{
+				width: 100%;
+				font-size: 0.32rem;
+				line-height: 1rem;
+				background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(136, 120, 253, 1)), to(rgba(25,164, 244, 1)));
+			    -webkit-background-clip: text;
+			    -webkit-text-fill-color: transparent;
+			}
+			p{
+				width: 100%;
+				font-size: 0.32rem;
+				line-height: 0.6rem;
+				color: #666;
+			}
+			p i,span{
+				background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(136, 120, 253, 1)), to(rgba(25,164, 244, 1)));
+			    -webkit-background-clip: text;
+			    -webkit-text-fill-color: transparent;
+			}
+			h4 span{
+				width: 1.1rem;
+				height: 0.1rem;
+				display: inline-block;
+				border-top: 1px solid #6486FA;				
+			}
+			.welcome{
+				line-height: 0.5rem;
+			}
+			h4 span:nth-of-type(1){
+				margin-right: 0.1rem;
+			}
+			h4 span:nth-of-type(2){
+				margin-left: 0.1rem;
+			}
+			.btn{
+				width: 90%;
+				height: 1rem;
+				color: #FFFFFF;
+				background: #00AFF0;
+				border: none;
+				border-radius: 5px;
+				margin: 0 auto;
+				font-size: 0.32rem;
+				margin: 0.4rem 0;
+				margin-bottom: 2rem;
+			}
+			.content{
+				text-align: center;
+			}
+			.content h3{
+				display: inline-block;			    
+			    font-size: 0.38rem;
+			    font-family: '微软雅黑';
+			    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(136, 120, 253, 1)), to(rgba(25,164, 244, 1)));
+			    -webkit-background-clip: text;
+			    -webkit-text-fill-color: transparent;
+			}
+			.content h3 i{
+				font-size: 0.4rem;
+			}
+			.wid-15{
+				padding: 0.2rem ;
+			}
+			.money{
+				width: 50%;
+				margin: 0.5rem auto;
+				display: flex;
+				/*flex-direction: column;*/
+				align-items: center;
+				border-radius: 0.2rem;
+				height: 2rem;
+				background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(136, 120, 253, 1)), to(rgba(25,164, 244, 1)));			    
+			}
+			.moneyLeft{
+				color: #FFFFFF;
+				font-size: 0.7rem;
+				flex: 1;
+				
+			}
+			.moneyRight{
+				color: #FFFFFF;
+				flex: 2;
+				justify-content:flex-end
+			}
+			.moneyRight p{
+				text-align: left;
+				color: #FFFFFF;
+				line-height: 0.5rem;
+			}
+		</style>
+	</head>
+	<body>		
+		<article>			
+			<div class="content">
+				<p>
+					<img src="img/2.png"/>
+				</p>
+				<h3>即刻加入摩宝 即可获得<i>39</i>元优惠券</h3>
+				<h4>
+					<span></span>
+					摩宝圣诞节 福利大回馈
+					<span></span>
+				</h4>
+				<p>
+					圣诞节快到了,天气也越来越冷
+				</p>
+				<p>
+					是不是躲在屋里不想出门?
+				</p>
+				<p>慢着,谁说出门就受冻</p>
+				<p>摩宝住房第一个拒绝</p>
+				<p>下面就来介绍一下<i>最能给你温暖的</i></p>
+				<h4 class="welcome">摩宝共享住房</h4>
+				<p>在寒冷的冬天里</p>
+				<p>入住摩宝,享受温暖与舒适</p>
+				<h4 class="welcome">享受家的温暖</h4>
+				<img class="wid-15" src="img/1.png"/>
+				<p>在摩宝,
+					<span>有舒适温暖的房间</span>
+				</p>
+				<img class="wid-100" src="img/3.png"/>
+				<p>
+					<img class="wid-15" src="img/1.png"/>
+				</p>
+				<p>在摩宝,保证
+					<span>卫生洁净,住的舒心</span>
+				</p>
+				<img class="wid-100" src="img/4.png"/>
+				<p>
+					<img class="wid-15" src="img/1.png"/>
+				</p>
+				<p>在摩宝,
+					<span>自由自在,享受家的感觉</span>
+				</p>
+				<img class="wid-100" src="img/5.png"/>
+				<p>
+					<img class="wid-15" src="img/1.png"/>
+				</p>
+				<p>最重要的是</p>
+				<p>现在入住摩宝,即有<i>39元优惠</i></p>
+				<p>即领即用~</p>
+				<div class="money">
+					<div class="moneyLeft">
+						39
+					</div>
+					<div class="moneyRight">
+						<p>元优惠券</p>
+						<p>.00</p>						
+					</div>
+				</div>
+			</div>	
+			
+			<p class="pbtn">
+				<button class="btn">领优惠券,马上入住</button>
+			</p>
+		</article>		
+	</body>
+	<script src="js/zepto.js"></script>
+	<script src="js/touch.js"></script>
+	<script>
+		var which = navigator.userAgent.toLowerCase();	
+		$('.btn').tap(function(){
+			if (/iphone|ipad|ipod/.test(which)) {	
+				window.location.href='taobao://';
+				window.location.href='https://itunes.apple.com/cn/app/%E5%8C%BB%E8%A7%86%E9%A2%91/id1215579795?mt=8';		
+			} else if (/android/.test(which)) {				
+				if (which.match(/MicroMessenger/i) == 'micromessenger') {
+					//alert("您已经安装摩宝APP,请点击右上角用其他浏览器打开");
+					window.location.href='http://a.app.qq.com/o/simple.jsp?pkgname=com.medical.video';
+//					var ifr = document.createElement('iframe');
+//				    ifr.src = 'yishipin://';
+//				    ifr.style.display = 'none';
+//				    document.body.appendChild(ifr);
+//				    setTimeout(function(){
+//				        document.body.removeChild(ifr);
+//				    }, 1000);
+					//return false;
+				}else{
+					window.location.href='http://a.app.qq.com/o/simple.jsp?pkgname=com.medical.video';
+				}
+				
+			}
+		})
+	</script>
+</html>

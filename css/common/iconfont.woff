@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>北京网站制作公司_北京网站建设_网站设计_建站热线010-56036226</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="description" content="北京环宇威智，高端网站建设品牌服务提供商，荣获设计师联盟设计金牌。专业致力于为企业信息化提供互联网应用服务和网站建设定制服务的高新技术公司。致力提供超预期建站服务！" />
+<meta name="keywords" content="营销型网站建设,营销型网站建设专家,北京网站建设公司,北京网站制作公司,北京建站公司，北京做网站公司" />
+<meta name="author" content="环宇威智制作" />
+<link rel="stylesheet" type="text/css" href="/Public/20151130/css/style.css"/>
+<link type="text/css" rel="stylesheet" href="/Public/20151130/css/animate.min.css" />
+<link type="text/css" rel="stylesheet" href="/Public/20151130/css/list.css"/>
+<link type="text/css" rel="stylesheet" href="/Public/20151130/css/response.css"/>
+<script type="text/javascript" src="/Public/20151130/js/jquery1.91.min.js"></script>
+
+
+</head>
+<body>
+
+<!--头部start-->
+<div class="head ease-3" id="head">
+<!--[if lte IE 8]>
+<div class="ie7_hints"><p>温馨提示：您所使用的浏览器版本过低，为保证账户安全和浏览体验建议升级为最新版本浏览器</p></div>
+<![endif]-->
+<div class="inner clearfix mar0">
+	<div class="fl">
+    	<div class="logo ease-3"><a href="/#banner"><img src="/Public/20151130/images/logo.png" alt="环宇威智" /></a></div>
+    </div>
+	<div class="tel pc ease-3">免费咨询热线：<span>010-56036226</span></div>
+    <div class="fr">
+    	<div class="nav ease-3 pc">
+        	<ul class="clearfix">
+            	<li><a class="item ease-1" href="/#banner">
+                	<div class="txt">首页</div>
+                    <div class="line ease-1"></div>
+                </a></li>
+            	<li><a class="item ease-1" href="/Build/service">
+                	<div class="txt">服务</div>
+                    <div class="line ease-1"></div>
+                </a></li>
+            	<li><a class="item ease-1" href="/Advantage">
+                	<div class="txt">优势</div>
+                    <div class="line ease-1"></div>
+                </a></li>
+            	<li><a class="item ease-1" href="/Build/kind/type/3">
+                	<div class="txt">体验</div>
+                    <div class="line ease-1"></div>
+                </a></li>
+            	<li><a class="item ease-1" href="/Case">
+                	<div class="txt">案例</div>
+                    <div class="line ease-1"></div>
+                </a></li>
+            	<!--<li><a class="item ease-1" href="/index.php/Flow">
+                	<div class="txt">流程</div>
+                    <div class="line ease-1"></div>
+                </a></li>-->
+            	<li><a class="item ease-1" href="/News/index/type/1">
+                	<div class="txt">新闻</div>
+                    <div class="line ease-1"></div>
+                </a></li>
+            	<li><a class="item ease-1" href="/Company">
+                	<div class="txt">关于</div>
+                    <div class="line ease-1"></div>
+                </a></li>
+            	<li><a class="item ease-1" href="/Contact">
+                	<div class="txt">联络</div>
+                    <div class="line ease-1"></div>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="fr nav-mobile mobile ease-3">
+        <a class="nav-btn ease-3" href="###"><div class="line line-1 ease-3"></div><div class="line line-2 ease-3"></div><div class="line line-3 ease-3"></div></a>
+    </div>
+</div>
+</div>
+<!--头部end-->
+<!--窄屏导航start-->
+<div class="nav-menu ease-3 mobile">
+    <ul class="clearfix">
+        <li><a class="ease-1" href="/#banner"><i class="iconfont mr10">&#xe623;</i>首页</a></li>
+        <li><a class="ease-1" href="/Build/service"><i class="iconfont mr10">&#xe625;</i>服务</a></li>
+        <li><a class="ease-1" href="/Advantage"><i class="iconfont mr10">&#xe624;</i>优势</a></li>
+        <li><a class="ease-1" href="/Build/kind/type/3"><i class="iconfont mr10">&#xe628;</i>体验</a></li>
+        <li><a class="ease-1" href="/Case"><i class="iconfont mr10">&#xe61e;</i>案例</a></li>
+        <li><a class="ease-1" href="/Flow"><i class="iconfont mr10">&#xe627;</i>流程</a></li>
+        <li><a class="ease-1" href="/News/index/type/1"><i class="iconfont mr10">&#xe620;</i>新闻</a></li>
+        <li><a class="ease-1" href="/Company"><i class="iconfont mr10">&#xe61f;</i>关于</a></li>
+        <li><a class="ease-1" href="/Contact"><i class="iconfont mr10">&#xe629;</i>联络</a></li>
+    </ul>
+</div>
+<!--窄屏导航end-->
+
+
+
+
+<style>
+body{ background:#111; cursor:default;}
+.notfound{ width:400px; height:300px; margin-top:-150px; margin-left:-200px; position:absolute; top:50%; left:50%;}
+.notfound h2{ font-size:190px; color:#fff; opacity:.1; -webkit-opacity:.1; -moz-opacity:.1;filter:alpha(opacity=10); font-family:Verdana, Geneva, sans-serif;}
+.notfound h3{ line-height:30px; font-size:16px; color:#fff;opacity:.5; -webkit-opacity:.5; -moz-opacity:.5;filter:alpha(opacity=50);}
+.notfound p{ line-height:30px; font-size:14px;}
+.notfound{}
+</style>
+<canvas id="canvas" width="100%" height="100%"></canvas>
+<div class="notfound">
+<div class="txt-c">
+	<h2>404</h2>
+	<h3>啊哦，您访问的页面找不着了</h3>
+	<p>
+		<a class="txt-green" href="http://www.huanyuweizhi.com">返回首页</a>
+	</p>
+</div>
+</div>
+
+
+<script>
+//旋转星空
+"use strict";
+
+var canvas = document.getElementById('canvas'),
+  ctx = canvas.getContext('2d'),
+  w = canvas.width = window.innerWidth,
+  h = canvas.height = window.innerHeight,
+
+  hue = 120,
+  stars = [],
+  count = 0,
+  maxStars = 1200;
+
+var canvas2 = document.createElement('canvas'),
+  ctx2 = canvas2.getContext('2d');
+canvas2.width = 100;
+canvas2.height = 100;
+var half = canvas2.width / 2,
+  gradient2 = ctx2.createRadialGradient(half, half, 0, half, half, half);
+gradient2.addColorStop(0.025, '#fff');
+gradient2.addColorStop(0.1, 'hsl(' + hue + ', 61%, 33%)');
+gradient2.addColorStop(0.25, 'hsl(' + hue + ', 64%, 6%)');
+gradient2.addColorStop(1, 'transparent');
+
+ctx2.fillStyle = gradient2;
+ctx2.beginPath();
+ctx2.arc(half, half, half, 0, Math.PI * 2);
+ctx2.fill();
+
+// End cache
+
+function random(min, max) {
+  if (arguments.length < 2) {
+    max = min;
+    min = 0;
+  }
+
+  if (min > max) {
+    var hold = max;
+    max = min;
+    min = hold;
+  }
+
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function maxOrbit(x, y) {
+  var max = Math.max(x, y),
+    diameter = Math.round(Math.sqrt(max * max + max * max));
+  return diameter / 2;
+}
+
+var Star = function() {
+
+  this.orbitRadius = random(maxOrbit(w, h));
+  this.radius = random(60, this.orbitRadius) / 12;
+  this.orbitX = w / 2;
+  this.orbitY = h / 2;
+  this.timePassed = random(0, maxStars);
+  this.speed = random(this.orbitRadius) / 900000;
+  this.alpha = random(2, 10) / 10;
+
+  count++;
+  stars[count] = this;
+}
+
+Star.prototype.draw = function() {
+  var x = Math.sin(this.timePassed) * this.orbitRadius + this.orbitX,
+    y = Math.cos(this.timePassed) * this.orbitRadius + this.orbitY,
+    twinkle = random(10);
+
+  if (twinkle === 1 && this.alpha > 0) {
+    this.alpha -= 0.05;
+  } else if (twinkle === 2 && this.alpha < 1) {
+    this.alpha += 0.05;
+  }
+
+  ctx.globalAlpha = this.alpha;
+  ctx.drawImage(canvas2, x - this.radius / 2, y - this.radius / 2, this.radius, this.radius);
+  this.timePassed += this.speed;
+}
+
+for (var i = 0; i < maxStars; i++) {
+  new Star();
+}
+
+function animation() {
+  ctx.globalCompositeOperation = 'source-over';
+  ctx.globalAlpha = 0.8;
+  ctx.fillStyle = 'hsla(' + hue + ', 10%, 10%, 1)';
+  ctx.fillRect(0, 0, w, h)
+
+  ctx.globalCompositeOperation = 'lighter';
+  for (var i = 1, l = stars.length; i < l; i++) {
+    stars[i].draw();
+  };
+
+  window.requestAnimationFrame(animation);
+}
+
+animation();
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--左侧漂浮start-->
+<div class="fixed fixed_box fixed_box_l orange">
+    <div class="item">
+         <a href="/index.php/Build" class="item_a item_open ease-1">
+            <i class="icon">快</i>
+            <p class="hover">套餐<br>服务</p>
+            <div class="hidebox ease-3">
+            	<h1 class="txt">快捷套餐定制服务</h1>
+            </div>
+        </a>
+        <!--<a href="/index.php/Sep/index" class="item_a item_open ease-1">
+            <i class="icon">惠</i>
+            <p class="hover">优惠<br>套餐</p>
+            <div class="hidebox ease-3">
+                <h1 class="txt">最新优惠定制服务</h1>
+            </div>
+        </a> -->
+    </div>
+    <div class="item">
+        <a href="/index.php/Build/kind/type/1" class="item_a item_open ease-1">
+            <i class="icon">企</i>
+            <p class="hover">企业<br>营销</p>
+            <div class="hidebox ease-3">
+            	<h1 class="txt">企业营销宣传定制</h1>
+            </div>
+        </a>
+    </div>
+    <div class="item">
+        <a href="/index.php/Build/group" class="item_a item_open ease-1">
+            <i class="icon">官</i>
+            <p class="hover">集团<br>官网</p>
+            <div class="hidebox ease-3">
+            	<h1 class="txt">集团官网高端定制</h1>
+            </div>
+        </a>
+    </div>
+    <div class="item">
+        <a href="/index.php/Build/kind/type/2" class="item_a item_open ease-1">
+            <i class="icon">商</i>
+            <p class="hover">商城<br>交互</p>
+            <div class="hidebox ease-3">
+            	<h1 class="txt">电商交互平台定制</h1>
+            </div>
+        </a>
+    </div>
+    <div class="item">
+        <a href="/index.php/Build/kind/type/4" class="item_a item_open ease-1">
+            <i class="icon">移</i>
+            <p class="hover">手机<br>微网</p>
+            <div class="hidebox ease-3">
+            	<h1 class="txt">手机网站微信开发</h1>
+            </div>
+        </a>
+    </div>
+</div>
+<!--左侧漂浮end-->
+
+<!--右侧漂浮start-->
+<div class="fixed fixed_box fixed_box_r orange">
+    <div class="item">
+        <a href="###" class="item_a item_open ease-1">
+            <i class="icon iconfont">&#xe604;</i>
+            <p class="hover">咨询<br>热线</p>
+            <div class="hidebox ease-3">
+            	<h1 class="txt"><i class="icon iconfont mr10">&#xe604;</i>010-56036226</h1>
+            </div>
+        </a>
+    </div>
+    <div class="item">
+        <!-- <a class="item_a ease-1" href="http://p6.qiao.baidu.com//im/index?siteid=2033101&ucid=5630796&lastsubid=&from=&bid=42e985a401efc8d230c7a723&chattype=1&groupid=&groupname=&subid=&subname=&ref=" target="_blank"> -->
+        <a class="item_a ease-1" href="http://p.qiao.baidu.com/cps/chat?siteId=2033101&userId=5630796" target="_blank">
+            <i class="icon iconfont">&#xe62b;</i>
+            <p class="hover">在线<br>客服</p>
+        </a>
+    </div>
+    <div class="item">
+        <div class="item_a item_qq ease-1 item_open">
+            <i class="icon iconfont">&#xe603;</i>
+            <p class="hover">ＱＱ<br>客服</p>
+            <div class="hidebox ease-3">
+                <ul class="clearfix ease-3">
+                    <li>
+                        <a href="tencent://message/?uin=3109425105&Site=&Menu=yes" class="ease-1">
+                            <i class="icon iconfont">&#xe603;</i>
+                            <p>小智</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tencent://message/?uin=3109425105&Site=&Menu=yes" class="ease-1">
+                            <i class="icon iconfont">&#xe603;</i>
+                            <p>小威</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tencent://message/?uin=3109425105&Site=&Menu=yes" class="ease-1">
+                            <i class="icon iconfont">&#xe603;</i>
+                            <p>小宇</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tencent://message/?uin=3109425105&Site=&Menu=yes" class="ease-1">
+                            <i class="icon iconfont">&#xe603;</i>
+                            <p>小环</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="item item_top">
+        <a href="#banner" class="item_a ease-1">
+            <i class="icon iconfont">&#xe630;</i>
+            <p class="hover">返回<br>顶部
+            </p>
+        </a>
+    </div>
+</div>
+<!--右侧漂浮end-->
+
+
+<script type="text/javascript" src="/Public/20151130/layer/layer.js"></script>
+<script type="text/javascript" src="/Public/20151130/js/custom.js"></script>
+
+
+<div style="display:none;">
+<!--百度商桥 请不要删除--> 
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F43f0f44da3c3f6bec414998ef815bc1b' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<style>
+.qiao-icon-wrap{ display:none;}
+.qiao-mess-wrap{ display:none;}
+#qiao-icon-wrap{ margin-top:0px !important;}
+</style>
+
+<script>
+// (function() {
+//   var _53code = document.createElement("script");
+//   _53code.src = "//tb.53kf.com/code/code/10142388/1";
+//   var s = document.getElementsByTagName("script")[0]; 
+//   s.parentNode.insertBefore(_53code, s);
+// })();
+</script>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+html{
+	background: #f6f6f6;
+}
+article{
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 0.2rem;
+	background: #FFFFFF;
+	text-align: justify;
+}
+article ul li{
+	width: 92%;
+	padding: 0 4%;
+	min-height: 1rem;
+	line-height: 1rem;
+}
+article h4{
+	padding-bottom: 0.2rem;
+	font-size: 0.28rem;
+	color: #666666;
+	font-weight: 500;
+}
+article h4 span{
+	float: right;
+}
+article h4 span img{
+	vertical-align: middle;	
+	width: 0.26rem;
+}
+article ul li .content{
+	line-height: 23px;
+	color: #999999;
+	font-size: 0.28rem;
+	text-indent: 20px;
+	padding-bottom: 0.26rem;
+}
+article ul li .content i{
+	color: #00AFEF;
+}
+section{
+	background: #FFFFFF;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	width: 100%;
+	display: flex;
+}
+section .serviceOnlive{
+	margin: 0 auto;
+	width: 3.68rem;
+	height: 0.9rem;
+	font-size: 0.3rem;
+	line-height: 0.9rem;
+	text-align: center;
+	color: #FFFFFF;
+	background: #00AFEF;
+	border-radius: 3px;
+	/*margin-left: 0.66rem;*/
+}
+section .serviceOnlive img{
+	width: 0.4rem;
+	vertical-align: sub;
+	padding: 0 0.1rem;
+}
+/*section .callPhone{
+	width: 2.2rem;
+	height: 0.86rem;
+	font-size: 0.3rem;
+	line-height: 0.86rem;
+	text-align: center;
+	color: #999999;
+	border:0.02rem solid #999999;
+	border-radius: 3px;
+	margin-left: 0.28rem;
+}*/

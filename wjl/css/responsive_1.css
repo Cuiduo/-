@@ -1,0 +1,395 @@
+﻿/* a style like this should never apply in IE. If it does, tests will fail */
+
+
+
+
+@media (min-width: 1441px) {
+
+.s_banner {
+		height:300px;
+	}
+.p_banner {
+		height:300px;
+	}
+.f_banner {
+		height:300px;
+	}
+
+.c_banner, .e_banner {
+		height:300px !important;
+	}
+.sub-carousel-content {
+    color: #fff;
+    text-align: left;
+    margin-top: 13%;
+}
+}
+/* lg */ 
+@media (min-width: 1200px) and (max-width: 1440px) {
+	.mian_contentbox_t1{
+		width: 100%;
+		font-size: 1.6em;
+		/* padding: 100px 0px 15px 0px; */
+	}
+	.banner {
+			height:400px;
+		}
+	.s_banner,.p_banner, .c_banner , .f_banner, .e_banner{
+		height:230px;
+		}
+
+	.slider-img {
+	    margin-top: 20%;
+	}
+	.carousel-content {
+	    margin-top: 12%;
+	}
+	.sub-carousel-content {
+	    margin-top: 7%;
+	}
+	.img_logic{
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.banner {
+			height: 300px;
+		}
+	.s_banner,.p_banner, .c_banner , .f_banner, .e_banner{
+		height:230px;
+		}
+	.slider-img {
+			margin-top: 10%;
+		}
+	.carousel-content {
+			margin-top: 9%;
+	}
+	.sub-carousel-content {
+	    margin-top: 7%;
+	}
+	.banner .btn-slide {
+	    width: 175px;
+	    height: 38px;
+	    line-height: 38px;
+	}
+	.f_pg1, .f_pg3, .f_pg5, .f_pg7, .f_pg9, .f_pg2, .f_pg4, .f_pg6, .f_pg8, .f_pg10{
+		height: 100%;
+	}
+
+	
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+.banner {
+		height: 260px;
+	}
+.slider-img {
+		margin-top: 24%;
+	}
+.carousel-content {
+		margin-top: 13%;
+}
+.sub-carousel-content {
+    margin-top: 10%;
+}
+.banner .btn-slide {
+    width: 175px;
+    height: 38px;
+    line-height: 38px;
+}
+.s_banner,.p_banner,.f_banner{
+	height:210px;
+	}
+.c_banner , .e_banner{
+	height:210px !important;
+	}
+	.mian_contentbox_tbox{
+		width: 100%;
+	    padding-left: 50px;
+		padding-right: 0px;
+	}
+	.f_pg1, .f_pg3, .f_pg5, .f_pg7, .f_pg9, .f_pg2, .f_pg4, .f_pg6, .f_pg8, .f_pg10{
+		height: 100%;
+	}
+	.submenu {
+    margin-top: 50px;
+}
+	.ih-item.square {
+		width: 300px;
+		border: 5px solid #fff;
+		margin: 20px 0px;
+	}
+	/* 功能 */
+	.f_mian_contentbox_tbox{
+		width: 100%;
+		padding-right: 0px;
+	}
+.s_mian_contentbox_tbox {
+	width:100%;
+	padding-right: 0px;
+	margin-top: 0px;
+
+}
+.threecol_content_img {
+    max-width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+}
+}
+
+/* xs */
+@media (max-width: 767px) {
+.banner {
+		height: 250px;
+	}
+.slide-margin {
+    margin-top: 0px;
+}
+.carousel-content {
+		margin-top: 6%;
+}
+.sub-carousel-content {
+    margin-top: 5%;
+}
+.banner .btn-slide {
+    width: 175px;
+    height: 38px;
+    line-height: 38px;
+}
+.bannertext1 {
+	font-size: 28px;
+    line-height: 36px;
+	}
+.bannertext2 {
+    font-size: 38px;
+    line-height: 40px;
+}
+.bannertext3 {
+    font-size: 18px;
+    line-height: 36px;
+}
+.s_banner,.p_banner, .f_banner{
+	height:180px;
+	}
+.c_banner, .e_banner {
+	height:180px !important;
+	}
+
+.mian_contentbox_tbox{
+		width: 100%;
+		padding-left: 20px;
+		padding-right: 0px;
+	}
+.mian_contentbox_t1 {
+		font-size: 26px;
+		padding: 10px 0px 10px 0px;
+		
+	}
+.submenu {
+    margin-top: 50px;
+}	
+
+.ih-item.square {
+		width: 70%;
+		border: 5px solid #fff;
+		margin: 20px 0px;
+	}
+	#footer {
+    background: #2871d5;
+    color: #ddebff;
+	 font-size: 8px !important; 
+	 padding: 10px 0px;
+}
+.button {
+    margin: 20px auto;
+	}
+
+/*FUNCTION*/
+.f_mian_contentbox_tbox {
+	padding-bottom: 30px;
+	width: 100%;
+}
+.colored-boxed {
+	width: 88%;
+}
+/*SCENARIO*/
+.section-content {
+    width: 350px;
+}
+/*CASE*/
+.case_contentbox {
+    padding-left: 20px;
+	padding-right: 20px;
+	}
+.s_mian_contentbox_tbox {
+    width: 100%;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.f-mian_contentbox_img {
+    width: 100%;
+}
+.s_mian_contentbox_img {
+    width: 100%;
+}
+}
+
+/* XS Portrait */
+@media (max-width: 480px) {
+.submenu a {
+    font-size: 12px;
+	}
+
+
+.banner .btn-slide {
+    width: 145px;
+    height: 38px;
+    line-height: 38px;
+}
+.bannertext1 {
+	font-size: 24px;
+	line-height: 24px;
+	}
+.bannertext2 {
+    font-size: 28px;
+    line-height: 30px;
+}
+.bannertext3 {
+    font-size: 14px;
+    line-height: 20px;
+}
+.mian_contentbox_t1{
+		font-size: 20px;
+
+	}
+.f_pg1, .f_pg3, .f_pg5, .f_pg7, .f_pg9, .f_pg2, .f_pg4, .f_pg6, .f_pg8, .f_pg10{
+		height: 100%;
+		padding-bottom: 20px;
+	}
+.pg3, .pg2, .pg1 {
+    padding-bottom: 40px;
+
+}	
+.submenu {
+    margin-top: 50px;
+}		
+	
+.content-box.small .content-box-text {
+		margin-left: 0;
+		font-size: 12px;
+	}
+.content-box .small .h4-body-title {
+		font-size: 14px;
+	}
+.content-box.small span {
+		float: none;
+
+	}
+.title_cterbox_t1{
+		font-size: 26px;
+	}
+	
+.mian_contentbox_img{
+		width: 100%;
+	    padding-top: 10px;
+		    padding-right:5px;
+	}
+.title_cterbox {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.imagebox {
+	margin-top: 10px;
+}
+.ih-item.square {
+		width: 80%;
+		border: 5px solid #fff;
+		margin: 20px 0px;
+	}
+.section_img {
+    margin: 2px 10px 0 0;
+}
+
+/*SCENARIO*/
+.page-section {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+/*FOOTER*/
+.telinfo_t2 {
+    font-size: 28px;
+}
+
+/*TO TOP*/
+#scroll {
+    bottom: -15px;
+    right: -30px;
+	display: none;
+}
+.scrollItem {
+    width: 50%;
+}
+.scrollItem {
+    padding-top: 33px !important;
+}
+
+
+}
+
+/*styles for 320px and up or styles for 460px and under-  */
+@media (min-width: 320px) and (max-width:460px) {
+	/* -------   content  ---------------*/
+.banner {
+		height: 200px;
+	}
+.carousel-content {
+    margin-top: 27px;
+}
+.s_banner, .p_banner,.f_banner{
+	height:140px;
+	}
+.c_banner, .e_banner {
+	height:140px !important;
+	}
+.title_cterbox_t1{
+		font-size: 22px;
+	}
+.title_cterbox_t2{
+		font-size: 12px;
+		padding: 0 5px;
+	}
+
+.mian_contentbox_t1{
+		font-size: 20px;
+	}
+
+
+
+.skipmenu a {
+    font-size: 16px;
+}
+/* -------  SCENARIO ---------------*/
+.section-content .section-title {
+    font-size: 18px;
+}
+.section-content .section-desc {
+    font-size: 0.8em;
+}
+.sectitle {
+	text-align:left;
+	color:#7a7a7a;
+	font-size:14px;
+	padding-left: 20px;
+	padding-right: 13px;
+}
+
+.logo {
+    width: 70%;
+}
+	}

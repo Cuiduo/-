@@ -1,0 +1,628 @@
+html {
+	overflow-x: hidden;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+ @-webkit-keyframes xiaozhi {
+ from {
+opacity:0;
+right:0;
+top:0;
+-webkit-transform:scale(0.8);
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8);
+}
+ 50% {
+opacity:0;
+right:0;
+top:0;
+-webkit-transform:scale(0.8);
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8);
+}
+ 100% {
+opacity:1;
+right:66px;
+top:0;
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-o-transform:scale(1);
+}
+}
+ @-moz-keyframes xiaozhi {
+ from {
+opacity:0;
+right:0;
+top:0;
+-webkit-transform:scale(0.8);
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8);
+}
+ 50% {
+opacity:0;
+right:0;
+top:0;
+-webkit-transform:scale(0.8);
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8);
+}
+ 100% {
+opacity:1;
+right:66px;
+top:0;
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-o-transform:scale(1);
+}
+}
+ @-ms-keyframes xiaozhi {
+ from {
+opacity:0;
+right:0;
+top:0;
+-webkit-transform:scale(0.8);
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8);
+}
+ 50% {
+opacity:0;
+right:0;
+top:0;
+-webkit-transform:scale(0.8);
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8);
+}
+ 100% {
+opacity:1;
+right:66px;
+top:0;
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-o-transform:scale(1);
+}
+}
+ @-o-keyframes xiaozhi {
+ from {
+opacity:0;
+right:0;
+top:0;
+-webkit-transform:scale(0.8);
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8);
+}
+ 50% {
+opacity:0;
+right:0;
+top:0;
+-webkit-transform:scale(0.8);
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8);
+}
+ 100% {
+opacity:1;
+right:66px;
+top:0;
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-o-transform:scale(1);
+}
+}
+ @keyframes xiaozhi {
+ from {
+opacity:0;
+right:0;
+top:0;
+-webkit-transform:scale(0.8);
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8);
+}
+ 50% {
+opacity:0;
+right:0;
+top:0;
+-webkit-transform:scale(0.8);
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8);
+}
+ 100% {
+opacity:1;
+right:66px;
+top:0;
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-o-transform:scale(1);
+}
+}
+ @-webkit-keyframes pa {
+ from {
+opacity:0;
+-webkit-transform:scale(0);
+-moz-transform:scale(0);
+-o-transform:scale(0);
+right:320px;
+top:106px;
+}
+ 30% {
+opacity:1;
+-webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-o-transform:scale(1.5);
+right:340px;
+top:96px;
+}
+ 40% {
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-o-transform:scale(1);
+}
+ 100% {
+opacity:1;
+}
+}
+ @-moz-keyframes pa {
+ from {
+opacity:0;
+-webkit-transform:scale(0);
+-moz-transform:scale(0);
+-o-transform:scale(0);
+right:320px;
+top:106px;
+}
+ 30% {
+opacity:1;
+-webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-o-transform:scale(1.5);
+right:340px;
+top:96px;
+}
+ 40% {
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-o-transform:scale(1);
+}
+ 100% {
+opacity:1;
+}
+}
+ @-ms-keyframes pa {
+ from {
+opacity:0;
+-webkit-transform:scale(0);
+-moz-transform:scale(0);
+-o-transform:scale(0);
+right:320px;
+top:106px;
+}
+ 30% {
+opacity:1;
+-webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-o-transform:scale(1.5);
+right:340px;
+top:96px;
+}
+ 40% {
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-o-transform:scale(1);
+}
+ 100% {
+opacity:1;
+}
+}
+ @-o-keyframes pa {
+ from {
+opacity:0;
+-webkit-transform:scale(0);
+-moz-transform:scale(0);
+-o-transform:scale(0);
+right:320px;
+top:106px;
+}
+ 30% {
+opacity:1;
+-webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-o-transform:scale(1.5);
+right:340px;
+top:96px;
+}
+ 40% {
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-o-transform:scale(1);
+}
+ 100% {
+opacity:1;
+}
+}
+ @keyframes pa {
+ from {
+opacity:0;
+-webkit-transform:scale(0);
+-moz-transform:scale(0);
+-o-transform:scale(0);
+right:320px;
+top:106px;
+}
+ 30% {
+opacity:1;
+-webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-o-transform:scale(1.5);
+right:340px;
+top:96px;
+}
+ 40% {
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+-o-transform:scale(1);
+}
+ 100% {
+opacity:1;
+}
+}
+.banner {
+	height: 420px;
+	background: url("dianshang_01_x.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_01_x.jpg*/) no-repeat top center;
+}
+.banner .w1200 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.banner .w1200 a {
+	display: block;
+	background: url("btn_01.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/btn_01.png*/) no-repeat center;
+	width: 206px;
+	height: 76px;
+	position: absolute;
+	left: 350px;
+	bottom: 80px;
+	filter: alpha(opacity=80);/* internet explorer */
+	-khtml-opacity: 0.8;     /* khtml, old safari */
+	-moz-opacity: 0.8;      /* mozilla, netscape */
+	opacity: 0.8;
+}
+.banner .w1200 a:hover {
+	filter: alpha(opacity=100);/* internet explorer */
+	-khtml-opacity: 1;     /* khtml, old safari */
+	-moz-opacity: 1;      /* mozilla, netscape */
+	opacity: 1;
+}
+.banner .xiaozhi {
+	display: block;
+	width: 420px;
+	height: 420px;
+	position: absolute;
+	right: 66px;
+	top: 0;
+	background: url("xiaozhi_01.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/xiaozhi_01.png*/) no-repeat center;
+	-webkit-animation-name: xiaozhi;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation: xiaozhi 0.5s ease-out forwards;
+	-ms-animation: xiaozhi 0.5s ease-out forwards;
+	-o-animation: xiaozhi 0.5s ease-out forwards;
+	animation: xiaozhi 0.5s ease-out forwards;
+}
+.banner .pa {
+	display: block;
+	width: 37px;
+	height: 37px;
+	position: absolute;
+	right: 340px;
+	top: 96px;
+	background: url("pa.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/pa.png*/) no-repeat center;
+	opacity: 0;
+	-webkit-animation-name: pa;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation: pa 0.3s ease-out 0.7s forwards;
+	-ms-animation: pa 0.3s ease-out 0.7s forwards;
+	-o-animation: pa 0.3s ease-out 0.7s forwards;
+	animation: pa 0.3s ease-out 0.7s forwards;
+}
+.con_01 {
+	text-align: center;
+	font-family: "微软雅黑", "宋体";
+}
+.con_01 .bt {
+	width: 100%;
+}
+.con_01 .bt h1 {
+	font-size: 28px;
+	margin-bottom: 10px;
+	color: #333;
+	font-weight: normal;
+}
+.con_01 .bt p {
+	line-height: 26px;
+	font-size: 14px;
+	color: #888;
+}
+.con_02 {
+	font-family: "微软雅黑", "宋体";
+	margin-bottom: 30px;
+	width:90%;
+}
+.con_02 ul {
+	width:100%;
+}
+.con_02 ul li {
+	float: left;
+	display: inline;
+	width:33.3%;
+}
+.con_02 ul li.item_03 {
+	background: none;
+	margin-left: 0;
+}
+.con_02 ul .item_01 a {
+	background: url("dianshang_ico_01.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_ico_01.jpg*/) no-repeat;
+	background-position: center 20px;
+}
+.con_02 ul .item_02 a {
+	background: url("dianshang_ico_02.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_ico_02.jpg*/) no-repeat;
+	background-position: center 20px;
+}
+.con_02 ul .item_03 a {
+	background: url("dianshang_ico_03.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_ico_03.jpg*/) no-repeat;
+	background-position: center 20px;
+}
+.con_02 ul .item {
+	padding:0 20px;
+}
+.con_02 ul .item a {
+	display: block;
+	width: 100%;
+	padding-top: 150px;
+	line-height: 22px;
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	-webkit-transition: all 0.3s ease-out;
+	-khtml-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.con_02 ul .item a h2 {
+	line-height: 30px;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.con_02 ul .item a:hover {
+	background-position: center 10px;
+}
+.con_02 ul .item_01 a:hover {
+	color: #68a6e0;
+}
+.con_02 ul .item_02 a:hover {
+	color: #ff8a50;
+}
+.con_02 ul .item_03 a:hover {
+	color: #83da61;
+}
+.con_03 {
+	padding: 20px 0;
+	margin-bottom: 20px;
+	background: url("dianshang_repeat_bg.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_repeat_bg.jpg*/) repeat;
+	text-align: center;
+	color: #333;
+	font-family: "微软雅黑", "宋体";
+}
+.con_03 .bt {
+	width: 100%;
+}
+.con_03 .bt h1 {
+	font-size: 28px;
+	margin-bottom: 10px;
+	color: #333;
+	font-weight: normal;
+}
+.con_03 .bt p {
+	line-height: 26px;
+	font-size: 14px;
+	color: #888;
+}
+.con_03 .nr{ width:90%;}
+.con_03 .nr ul {
+	width:100%;
+}
+.con_03 .nr li {
+	float: left;
+	display: inline;
+	width:25%;
+	margin-bottom: 10px;
+}
+.con_03 .nr .item {
+	width: 100%;
+	height: 120px;
+}
+.con_03 .nr .item .item_z {
+	width: 0;
+	display: none;
+	background: #ccc;
+}
+.con_03 .nr .item .item_z p {
+	display: block;
+	width: 100%;
+	height: 120px;
+	background: #ccc;
+}
+.con_03 .nr .item .item_f {
+	width: 100%;
+}
+.con_03 .nr .item .item_f a {
+	display: block;
+	padding-left: 15%;
+	line-height: 120px;
+	font-size: 14px;
+	color: #333;
+	background-position: 50px center;
+	-webkit-transition: all 0.3s ease-out;
+	-khtml-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.con_03 .nr .item_01 a {
+	background: url("dianshang_icon_01.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_icon_01.png*/) no-repeat;
+}
+.con_03 .nr .item_02 a {
+	background: url("dianshang_icon_02.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_icon_02.png*/) no-repeat;
+}
+.con_03 .nr .item_03 a {
+	background: url("dianshang_icon_03.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_icon_03.png*/) no-repeat;
+}
+.con_03 .nr .item_04 a {
+	background: url("dianshang_icon_04.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_icon_04.png*/) no-repeat;
+}
+.con_03 .nr .item_05 a {
+	background: url("dianshang_icon_05.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_icon_05.png*/) no-repeat;
+}
+.con_03 .nr .item_06 a {
+	background: url("dianshang_icon_06.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_icon_06.png*/) no-repeat;
+}
+.con_03 .nr .item_07 a {
+	background: url("dianshang_icon_07.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_icon_07.png*/) no-repeat;
+}
+.con_03 .nr .item_08 a {
+	background: url("dianshang_icon_08.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_icon_08.png*/) no-repeat;
+}
+.con_03 .nr .item_09 a {
+	background: url("dianshang_icon_09.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_icon_09.png*/) no-repeat;
+}
+.con_03 .nr .item_10 a {
+	background: url("dianshang_icon_10.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_icon_10.png*/) no-repeat;
+}
+.con_03 .nr .item_11 a {
+	background: url("dianshang_icon_11.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_icon_11.png*/) no-repeat;
+}
+.con_03 .nr .item_12 a {
+	background: url("dianshang_icon_12.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_icon_12.png*/) no-repeat;
+}
+.con_03 .nr .item .item_f a:hover {
+	background-position: 60px center;
+	padding-left: 10%;
+}
+.con_04 {
+	height: 480px;
+	margin-bottom: 20px;
+	background: url("dianshang_02.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_02.jpg*/) no-repeat center top;
+}
+.con_04 .bt {
+	width: 100%;
+}
+.con_04 .bt h1 {
+	font-size: 28px;
+	margin-bottom: 10px;
+	color: #333;
+	font-weight: normal;
+}
+.con_04 .bt p {
+	line-height: 26px;
+	font-size: 14px;
+	color: #888;
+}
+.con_04 .nr {
+	padding-left: 50%;
+	padding-top: 80px;
+	font-family: "微软雅黑", "宋体";
+}
+.con_04 .nr h2 {
+	font-size: 30px;
+	font-weight: normal;
+	color: #333;
+	margin-bottom: 10px;
+}
+.con_04 .nr h2 em {
+	color: #ff5400;
+	font-size: 60px;
+	font-style: normal;
+	margin: 0 10px;
+}
+.con_04 .nr p {
+	font-size: 14px;
+	color: #333;
+}
+.con_04 .nr p em {
+	color: #ff5400;
+	font-style: normal;
+}
+.con_04 .nr .btn_02 {
+	margin: 50px 0;
+}
+.con_05 {
+	background: url("dianshang_03.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/dianshang_03.jpg*/) repeat-x top center;
+	padding: 30px 0 30px;
+}
+.con_05 .bt {
+	width: 100%;
+}
+.con_05 .bt h1 {
+	font-size: 28px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-weight: normal;
+}
+.con_05 .nr {
+	padding: 5px 5px 15px 5px;
+	width: 1190px;
+	height: 180px;
+	overflow: hidden;
+}
+.con_05 .nr ul li {
+	float: left;
+	display: inline;
+	padding: 5px;
+	margin: 3px;
+	border: 1px #cfcfcf solid;
+	background: rgba(255,255,255,0.3);
+}
+.con_05 .nr ul li a {
+	display: block;
+	height: 164px;
+	width: 278px;
+	overflow: hidden;
+}
+.con_05 .nr ul li a img {
+	width: 278px;
+	height: auto;
+	background: #fff;
+}
+.btn_02 {
+	display: block;
+	width: 166px;
+	height: 50px;
+	text-align: center;
+	color: #fff;
+	background: #8ed300;
+	line-height: 50px;
+	font-size: 16px;
+	-moz-text-shadow: 0 1px 1px #333;
+	-webkit-text-shadow: 0 1px 1px #333;
+	text-shadow: 0 1px 1px #333;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+}
+.btn_02:hover {
+	background: #83c200;
+}

@@ -1,0 +1,356 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
+
+<title>做微商，最缺的是什么，你知道吗？ - 微精灵新闻 - 微精灵网站</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/style1_4.css"  rel="stylesheet">
+<script src="js/jquery.min_1.js"></script>
+<script src="js/jquery.superslide.2.1.source_1.js"></script>
+<script src="js/basic.js"></script>
+<link href="../css/lvshandian.ico" rel="shortcut icon">
+ <link href="css/bootstrap_3.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="css/index_2.css" />
+   <link href="css/style1_5.css" rel="stylesheet" type="text/css" />
+     <link href="css/css_3.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]><script src="js/html5_1.js" ></script><![endif]-->
+<script type="text/javascript" src="js/jquery1.42.min_2.js"></script>
+<style>
+a:focus {  
+    outline:none;   
+    -moz-outline:none;
+}
+.btn-slide {
+    background-color: rgba(40,113,213,.05) !important;
+}
+.btn-slide:hover {
+    background-color: #fff !important;
+    color:#492623 !important;
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: block !important;
+  }
+}
+
+
+.slider-nav{width:82px; ! important}
+
+
+@font-face{font-style:normal;font-family:'造字工房毅黑体';
+src:url('/templates/default/images/home/造字工房毅黑体.ttf') format('truetype');}
+
+/* 本例子css */
+	.fullSlide{ width:100%;  position:relative;  height:550px; background:#000;  }
+	.fullSlide .bd{ margin:0 auto; position:relative; z-index:0; overflow:hidden;  }
+	.fullSlide .bd ul{ width:100% !important;  }
+	.fullSlide .bd li{ width:100% !important;  height:550px; overflow:hidden; text-align:center;  }
+	.fullSlide .bd li a{ display:block; height:50px; }
+
+	.fullSlide .hd{ width:100%;  position:absolute; z-index:1; bottom:0; left:0; height:30px; line-height:30px; }
+	.fullSlide .hd ul{ text-align:center; }
+	.fullSlide .hd ul li{ cursor:pointer; display:inline-block; *display:inline; zoom:1; width:42px; height:11px; margin:1px; overflow:hidden; background:#000;
+		filter:alpha(opacity=50);opacity:0.5;  line-height:999px; 
+	}
+	.fullSlide .hd ul .on{ background:#f00;  }
+
+	.fullSlide .prev,
+	.fullSlide .next{  display:block;  position:absolute; z-index:1; top:50%; margin-top:-30px; left:15%;  z-index:1; width:40px; height:60px; background:url(images/slider-arrow_2.png) -126px -137px #000 no-repeat;  cursor:pointer; filter:alpha(opacity=50);opacity:0.5; display:none;  }
+	.fullSlide .next{ left:auto; right:15%; background-position:-6px -137px; }
+.headtop .men{width:50px;height:50px;border-radius:50%;float:right;margin-top:5px;display:none;}		
+
+.headtop .men .mbox{z-index:9999;   }
+.ts{ height:50px; width:50px; border-radius:50%; cursor:pointer; background:url(images/men_2.png) center  #3ea3ff no-repeat;background-size:70% 70%;}
+ .xl{width:50px; } 
+.xl dd{border-radius:4px;border-bottom:1px solid #ccc;}
+ .xl a{display:block; height:25px;padding:0 2px; line-height:25px; background:#3ea3ff; width:58px; color:#fff; text-align:center; text-decoration:none; font-size:12px;}
+ .xl a:hover{background:#666;} 
+@media screen and (max-width: 640px) {
+ .fullSlide{height:200px;}
+ .fullSlide .bd li{height:200px;}
+ .fullSlide .bd li a{height:200px;}
+ .fullSlide .next{ width:0;height:0;}
+  .fullSlide .prev{ width:0;height:0;}
+
+ .fullSlide .hd{bottom:-5px;}
+.headtop .men{display:block;position:absolute;top:0;right:0;}
+ .headtop .men .mbox{position: fixed;right:0;top:55px;} 
+ }
+</style>
+   <script src="js/jquery_3.js"></script>
+
+    <!-- Bootstrap 响应式前端框架 -->
+    <script src="js/bootstrap.min_3.js"></script>
+</head>
+
+<body>
+
+<div class="top">   
+<div class="headtop">
+   <div class="logo" style="width: 810px">
+    <img src="picture/201708181120163779.png" width="300">   
+    <span style="font-size: 20px;float: right;font-weight: 500;color: #999999;">微信号/手机号:<span style="color:#3AA1FF;font-family: arial;">18810146618</span></span>
+   </div>
+    <!--<ul >
+	<li><a href="/">首页</a></li> 
+       <li><a href="#">营销手机</a></li> 
+    <li><a href="">群控系统</a></li> 
+    <li><a href="">代理加盟</a></li> 
+    <li><a href="">移动案例</a></li> 
+     <li><a href="">体验</a></li> 
+     <li><a href="">联系我们</a></li>
+  
+  </ul>
+
+  <div class="men xl" id="mm1" >
+  <div class="ts" id="mm1"></div> 
+  <dl class="shows mbox" id="mm2"> 
+  <dd><a href="/">首页</a></dd>
+   <dd><a href="#">营销手机</a></dd>
+   <dd><a href="#">群控系统</a></dd>
+   <dd><a href="#">代理加盟</a></dd>
+    <dd><a href="#">移动案例</a></dd>
+   <dd><a href="#">体验</a></dd>
+   <dd><a href="#">联系我们</a></dd>
+</dl> -->
+</div>
+<script>
+
+$(function(){
+
+$("#mm2").hide();
+   var x=1
+	
+	$("#mm1").click(
+	function(){
+	     if(x){
+		 $("#mm2").show();
+		 x=0;
+		 
+		 }else{
+		 $("#mm2").hide();
+		 x=1;
+		 }
+	     
+	});
+});
+</script>
+</div>
+</div>
+  <div class="clear"></div>  
+<div style="clear:both;"></div>
+<div style="width:1200px;margin: 0 auto;"><img src="picture/banner4_1.jpg" style="width:100%;"></div>
+
+<div class="news_box wrap">
+
+    <div class="crumbs">
+
+        <img src="picture/site.jpg" width="17" height="20" alt=""/>
+
+        您的当前位置： <a href="/">首页</a> - <a href="/news/0.html">新闻资讯 </a> - <span  class="on">微精灵新闻</span>
+
+    </div>
+
+    <div class="news_cont">
+
+        <h2>做微商，最缺的是什么，你知道吗？</h2>
+
+        <p class="date">日期：2017-10-28 17:20:00      来源：微精灵网站</p>
+
+        <p class="text">
+
+        <p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;line-height:1.6;">做微商，最缺的是什么你知道吗？<br />
+</span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<br />
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">其实，最缺的并不是你的销售能力，也不是你发朋友圈的文案能力，<strong>最缺的是“流量”。</strong></span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<br />
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">销售能力可以提升，文案能力可以锻炼，经验是不断试错不断学习不断积累出来的，如果你在微商行业摸爬滚打3个月到1年时间，其实你的销售能力已经非常不错了。</span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<br />
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">但是<strong>有一个能力，却不会因为你入行的时间增加而增加，那就是推广和引流的能力</strong>。</span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<br />
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">我可以毫不夸张地讲，太多微商团队，根本不会真正教你如何推广，如果引流，如何吸引精准粉丝，就算分享也就只是思路的分享。微商团队基本上不会去教你如何操作，不会告诉你其中的技巧和方法，更不会告诉你为什么要这么做？</span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<br />
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">因为微商的最终目的是成交，所以我们大多数微商团队，每天讨论的话题就是，今天谁谁谁招了多少代理，今天谁谁谁卖了多少盒产品，今天谁谁谁又补货了，今天谁谁谁又买车买房实现了人生梦想，等等等等。</span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<br />
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<strong><span style="font-size:15px;">但是极少非常细致的告诉你：“我是如何引流和推广的？”</span></strong>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="picture/201710281719012183.jpg" alt="" />
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">其实不难理解，毕竟微商是一种商业行为，我们是同一艘船的兄弟姐妹，如果我把方法告诉了你，你去操作了，原本蓝海的推广技巧和方法，结果大家都去用了，这个时候我的客户被瓜分，我的流量被稀释，谁也不愿意和盘托出，这是不能说的秘密，你懂的。</span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<br />
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">每一个代理商，当你加入到一个团队的时候，这个时候就是你的红利期，就是你的爆发期。</span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<br />
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">但是，你们有没有想过一个问题，<strong>当你用完了你那几百个或者是几千个微信好友，该筛选的都筛选完了，该成交的都成交了，换句话说把老本都给啃光了，怎么招新代理？</strong></span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<br />
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;color:#3DA742;">我们太多微商，越做越难做，代理越来越难招，货越来越难卖，其实表面是代理难招、货难卖，其实最根本的是你的“流量不够”</span><span style="font-size:15px;">，换句话说你没有了新的流量，没有新鲜的血液注入，就那几个老代理，你能赚多少钱？你能搅起多大的风浪？往往我们还没有那么好的运气，一下子就能遇到非常厉害的下级代理商，唯有不断前行，不断招募新的代理，在前行和招募的过程中，才会发现更加优秀的更加靠谱和给力的小伙伴，一起同行，有时候一个靠谱给力的代理商鼎你10个甚至100个小代理商。</span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<br />
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">所以，<strong>在这个时代，其实最贵的，应该就是流量，就是粉丝，最最最最贵的是：精准流量，精准粉丝。</strong></span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<br />
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">做微商，如何引流？</span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">做微商，如何增加粉丝？</span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">做微商，如何推广？</span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">做微商，如何吸收精准流量？</span>
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<br />
+</p>
+<p style="color:#3E3E3E;font-size:16px;font-family:'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;background-color:#FFFFFF;">
+	<span style="font-size:15px;">你不会没关系，你不懂没关系，你没有粉丝也没有关系！！</span>
+</p>
+<p>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="picture/201710281719231088.jpg" alt="" />
+</p>
+<p>
+	<br />
+</p>
+
+
+        </p>
+
+    </div>
+
+    <div class="page_list">
+
+        <ul>
+
+            <li><span class="label">上一篇：</span><a href="/news/show-220.html">微商技巧：巧用这几个段子，直击客户心理</a></li>
+            <li><span class="label">下一篇：</span><a href="/news/show-222.html">微精灵智能营销系统，轻松靠谱的挣钱方法</a></li>
+        </ul>
+
+    </div>
+    </div>
+
+</div>
+
+
+
+﻿    <div class="footerinfo" style="display:block">
+        <div class="container">
+		   <div class="row">
+				<div class="col-md-9 col-sm-12 col-xs-12">
+				
+				  <div  class="footerinfo_logo">
+				      <img src="picture/logo_footer_3.png">
+				  </div>
+				 <div class="footerinfo_text">
+						<span>
+						版权所有北京绿闪电科技有限公司 ? Copyright 2014 - 2017. lvshandian. All Rights Reserved.
+							<a href="#"  target="_blank" style="display:inline-block;text-decoration:none;height:20px;margin-left: 10px;line-height: 6px;">
+							<!-- <p style="color: #999999; font-size:12px;display: inline-block; margin-right: 30px;margin-left: 5px;">沪公网安备 31011502203257号</p> -->
+							</a>
+							
+						</span>
+						<br>
+						<span>
+						 <a class="footerinfo_l1" href="">联系我们</a>|
+						  <a class="footerinfo_l1" href="">代理申请</a>|
+						   <a class="footerinfo_l1" href="">授权验证</a>|
+						    <a class="footerinfo_l1" href="">诚品英才</a>|
+							 <a class="footerinfo_l1" href="">联系我们</a>
+						
+						</span>
+						<div class="span1">
+						<span>
+						北京绿闪电科技有限公司
+						</span>
+						
+						</div>
+				 
+				 </div>
+				</div>
+		   <div class="col-md-3 col-sm-12 col-xs-12 baidushare"  style="display:none;">
+		    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+			<span class="bds_more" style="line-height:normal;">分享到：</span>
+			<a class="bds_tsina" title="分享到新浪微博" href="#" >分享到：</a>
+			
+			<script src="js/bds_s_v2_3.js"></script>
+			<script src="js/shell_v2_3.js"></script>
+			</div>
+		   
+		   </div>
+		   
+		   </div>
+		
+		
+		</div>
+    </div>
+
+<!--js-->
+
+<script type="text/javascript">
+
+    jQuery(".focusBox,.focusBox1,.focusBox2").slide({ mainCell:".pic",effect:"left", autoPlay:true, delayTime:400,interTime:3000});
+
+</script>
+
+<script type="text/javascript">
+
+    jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,effect:"left"});
+
+</script>
+
+</body>
+
+</html>

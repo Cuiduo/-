@@ -1,0 +1,119 @@
+html{overflow-x: hidden;font-family: "微软雅黑", "宋体";}
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.bt{margin: 0;}
+.w1200{width: 1200px;}
+.mar0{margin: 0 auto;}
+.banner{height: 420px;background: url("shouji_01_x.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/shouji_01_x.jpg*/) no-repeat top center;font-family: "微软雅黑", "宋体";}
+.banner .w1200{position: relative;height: 100%;}
+.banner .w1200 .txt{font-size: 14px;line-height: 26px;color: #fff;text-indent: 2em;position: absolute;left: 50px;top: 230px;width: 700px;}
+/* 本例子css */
+#shoujiview{width: 167px;height: 286px;position: absolute;right: 46px;top: 71px;}
+.slideBox{width: 167px;height: 286px;}
+.slideBox .hd{height: 16px;overflow: hidden;position: absolute;right: 5px;bottom: 5px;z-index: 1;}
+.slideBox .hd ul{overflow: hidden;zoom: 1;float: left;}
+.slideBox .hd ul li{float: left;margin-right: 2px;width: 14px;height: 14px;font-size: 12px;line-height: 14px;text-align: center;background: #fff;cursor: pointer;}
+.slideBox .hd ul li.on{background: #f00;color: #fff;}
+.slideBox .bd{position: relative;height: 100%;z-index: 0;overflow: hidden;}
+.slideBox .bd li{zoom: 1;vertical-align: middle;display: block;width: 100%;height: 100%;}
+.slideBox .bd img{width: 100%;height: auto;display: block;}
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+.slideBox .prev, .slideBox .next{position: absolute;left: 50%;bottom: -45px;margin-right: -20px;display: none;width: 40px;height: 40px;filter: alpha(opacity=80);opacity: 0.8;}
+.slideBox .next{display: block;left: auto;right: 50%;background-position: 8px 5px;}
+.slideBox .prev:hover, .slideBox .next:hover{filter: alpha(opacity=100);opacity: 1;}
+.slideBox .prevStop{display: none;}
+.slideBox .nextStop{display: none;}
+.con_01{text-align: center;font-family: "微软雅黑", "宋体";}
+.con_01 .bt{width: 100%;}
+.con_01 .bt h1{font-size: 28px;margin-bottom: 10px;color: #333;font-weight: normal;}
+.con_01 .bt p{line-height: 26px;font-size: 14px;color: #888;}
+.con_02{margin-bottom: 30px;}
+.con_02 ul{padding-left: 00px;}
+.con_02 ul li{float: left;display: inline;margin-left: 00px; width:25%;}
+.con_02 ul li.item_03{background: none;margin-left: 0;}
+.con_02 ul .item_01 a{background: url("shouji_ico_01.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/shouji_ico_01.jpg*/) no-repeat;background-position: center 20px;}
+.con_02 ul .item_02 a{background: url("shouji_ico_02.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/shouji_ico_02.jpg*/) no-repeat;background-position: center 20px;}
+.con_02 ul .item_03 a{background: url("shouji_ico_03.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/shouji_ico_03.jpg*/) no-repeat;background-position: center 20px;}
+.con_02 ul .item_04 a{background: url("shouji_ico_04.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/shouji_ico_04.jpg*/) no-repeat;background-position: center 20px;}
+.con_02 ul .item{width: 90%; margin:0 auto;}
+.con_02 ul .item a{display: block;width: 100%;padding-top: 150px;line-height: 22px;color: #333;font-size: 14px;text-align: center;-webkit-transition: all 0.3s ease-out;-khtml-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;transition: all 0.3s ease-out;}
+.con_02 ul .item a h2{line-height: 30px;font-size: 20px;margin-bottom: 5px;}
+.con_02 ul .item a:hover{background-position: center 10px;}
+.con_02 ul .item_01 a:hover{color: #ff8a50;}
+.con_02 ul .item_02 a:hover{color: #68a6e0;}
+.con_02 ul .item_03 a:hover{color: #83da61;}
+.con_02 ul .item_04 a:hover{color: #1698b0;}
+.con_03{color: #2a5c19;font-family: "微软雅黑", "宋体";}
+.con_03 .item{height: 332px;}
+.con_03 .item .txt{position: absolute;line-height: 30px;font-size: 20px;}
+.con_03 .item_1{background-color: #f3f3f3;}
+.con_03 .item_1 .w1200{background: url("shouji_01.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/shouji_01.jpg*/) no-repeat center top;height: 100%;position: relative;}
+.con_03 .item_1 .txt{left: 684px;top: 124px;}
+.con_03 .item_2{background-color: #fff;}
+.con_03 .item_2 .w1200{background: url("shouji_02.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/shouji_02.jpg*/) no-repeat center top;height: 100%;position: relative;}
+.con_03 .item_2 .txt{left: 200px;top: 123px;}
+.con_03 .item_3{background-color: #f3f3f3;}
+.con_03 .item_3 .w1200{background: url("shouji_03.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/shouji_03.jpg*/) no-repeat center top;height: 100%;position: relative;}
+.con_03 .item_3 .txt{left: 684px;top: 124px;}
+.con_04{margin-bottom: 20px;padding-top: 30px;}
+.con_04 .bt{width: 100%;margin: 0 auto 50px; text-align:center;}
+.con_04 .bt h1{font-size: 28px;margin-bottom: 10px;color: #333;font-weight: normal;}
+.con_04 .bt p{line-height: 26px;font-size: 14px;color: #888;}
+.con_04 .nr{font-family: "微软雅黑", "宋体";}
+/* 本例子css */
+#anliview{width: 1200px;height: 445px;margin-bottom: 50px;}
+.anli_slideBox{position: relative;}
+.anli_slideBox .hd{ padding:10px 0 30px;overflow: hidden; text-align:center;right: 5px;z-index: 1;}
+.anli_slideBox .hd ul{overflow: hidden;zoom: 1;}
+.anli_slideBox .hd ul li{display:inline-block;*display:inline;*zoom:1; text-indent:99999em; overflow:hidden; position:relative;padding: 4px;margin: 4px 8px;font-size: 0px;line-height: 10px;text-align: center;background: #ccc;border: 2px #ccc solid; height:0px;
+cursor: pointer;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+filter: alpha(opacity=50);
+-khtml-opacity: 0.5;
+-moz-opacity: 0.5;
+opacity: 0.5;
+behavior: url("ie-css3.htc"/*tpa=http://huanyuweizhi.com/Public/20151130/css/ie-css3.htc*/); z-index:1;
+-webkit-transition:all 0.3s ease-out;
+-khtml-transition:all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;}
+.anli_slideBox .hd ul li.on{background: #fff;color: #fff; border-color:#60c10a;
+filter: alpha(opacity=100);
+-khtml-opacity: 1;
+-moz-opacity: 1;
+opacity: 1;}
+.anli_slideBox .bd{position: relative;height: 100%;z-index: 0;overflow: hidden;}
+.anli_slideBox .bd li{zoom: 1;vertical-align: middle;display: block;float: left;margin: 0 40px;}
+.anli_slideBox .bd .item{width: 217px;height: 372px;display: block;padding: 41px 1px 32px;background: url("shouji_shouji_bg.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/shouji_shouji_bg.jpg*/) no-repeat top center;}
+.anli_slideBox .bd .item .pic{width: 217px;height: 372px;overflow: hidden;position: relative;}
+.anli_slideBox .bd .item .pic img{width: 100%;height: auto;-webkit-transition: all 0.3s ease-out;-khtml-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;transition: all 0.3s ease-out;}
+.anli_slideBox .bd .item .pic .erweima{position: absolute;display: block;width: 120px;height: 120px;top: -150px;left: 50%;margin-left: -60px;background-color: #fff;background-size: 100%;background-repeat: no-repeat;background-position: center;-webkit-transition: all 0.3s ease-out;-khtml-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;transition: all 0.3s ease-out;}
+.anli_slideBox .bd .item .pic .txt{position: absolute;display: block;width: 180px;bottom: -150px;left: 50%;margin-left: -90px;color: #fff;font-size: 14px;line-height: 26px;text-align: center;-webkit-transition: all 0.3s ease-out;-khtml-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;transition: all 0.3s ease-out;}
+.anli_slideBox .bd .item:hover .pic img{filter: alpha(opacity=50);/* internet explorer */-khtml-opacity: 0.5; /* khtml, old safari */-moz-opacity: 0.5; /* mozilla, netscape */opacity: 0.5;}
+.anli_slideBox .bd .item:hover .erweima{top: 50px;}
+.anli_slideBox .bd .item:hover .pic .txt{bottom: 120px;}
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+.anli_slideBox .prev, .anli_slideBox .next{position: absolute;left: -10px;bottom: 50%;margin-bottom: -20px;display: block;width: 60px;height: 60px;background:#000 url("arrow_left.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/arrow_left.png*/) center no-repeat;filter: alpha(opacity=50);opacity: 0.5;}
+.anli_slideBox .next{left: auto;right: -10px;background:#000 url("arrow_right.png"/*tpa=http://huanyuweizhi.com/Public/20151130/images/arrow_right.png*/) center no-repeat;}
+.anli_slideBox .prev:hover, .anli_slideBox .next:hover{filter: alpha(opacity=80);opacity: 0.8;}
+.anli_slideBox .prevStop{display: none;}
+.anli_slideBox .nextStop{display: none;}
+.con_05{padding: 20px 0 0;height: 640px;background-color: #f8f8f8;background-image: url("shouji_ipad_bg.jpg"/*tpa=http://huanyuweizhi.com/Public/20151130/images/shouji_ipad_bg.jpg*/);background-repeat: no-repeat;background-position: bottom center;}
+.con_05 .bt{width: 100%;height: 299px;padding: 0; text-align:center;}
+.con_05 .bt h1{font-size: 28px;margin-bottom: 20px;color: #333;font-weight: normal;}
+.con_05 .bt p{line-height: 26px;font-size: 14px;color: #888;}
+.con_05 .nr{width: 768px;height: 341px;margin: 0 auto;overflow: hidden;}
+.zScroll{height: 100%;position: relative;overflow: hidden;}
+.con_05 .item{padding: 10px 30px; overflow:hidden;}
+.con_05 .item .txt{position: relative;display: block;padding: 10px 20px;font-size: 14px;line-height: 26px;max-width: 60%;border-radius: 8px;-webkit-border-radius: 8px;-moz-border-radius: 8px;}
+.con_05 .item .txt em{display:block; width:0; height:0;position: absolute;bottom: 15px;border-width: 6px 7px;border-style: dashed;}
+.con_05 .item_l .txt{float: left;background: #ddd;color: #333;}
+.con_05 .item_l .txt em{left: -10px;border-color: transparent #ddd #ddd transparent;}
+.con_05 .item_r .txt{float: right;background: #5eca39;color: #fff;}
+.con_05 .item_r .txt em{right: -10px;border-color: transparent transparent #5eca39 #5eca39;}
+.con_05 .item_c .txt{max-width: 80%;margin: 0 auto;font-size: 16px;background-color: #f3f3f3;color: #888;margin-bottom: 30px;}
+.con_05 .item_c .txt em{display: none;}
+.btn_02{display: block;width: 166px;height: 50px;text-align: center;color: #fff;background: #8ed300;line-height: 50px;font-size: 16px;-moz-text-shadow: 0 1px 1px #333;-webkit-text-shadow: 0 1px 1px #333;text-shadow: 0 1px 1px #333;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;-moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.5);-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.5);box-shadow: 0px 1px 2px rgba(0,0,0,0.5);}
+.btn_02:hover{background: #83c200;}

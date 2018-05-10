@@ -1,0 +1,23 @@
+section{
+	background: #F6F6F6;
+	height: 0.32rem;
+	width: 100%;
+}
+article{
+	width: 92%;
+	padding: 0 4%;
+	margin: 0.25rem 0;
+	background: #FFFFFF;
+	text-align: justify;
+}
+article p{
+	color: #666666;
+	font-size: 0.28rem;
+	padding: 0.2rem 0;
+	line-height: 0.44rem;
+	letter-spacing: 0.008rem;
+}
+article p span{
+	color: #000000;	
+	font-weight: 600;
+}

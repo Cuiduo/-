@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+html{font-family: "微软雅黑";}
+html,
+body,
+header,
+section,
+footer,
+div,
+ul,
+ol,
+li,
+img,
+a,
+span,
+em,
+del,
+legend,
+center,
+strong,
+var,
+fieldset,
+form,
+label,
+dl,
+dt,
+dd,
+cite,
+input,
+hr,
+time,
+mark,
+code,
+figcaption,
+figure,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{margin: 0;border: 0;padding: 0;font-style: normal;}
+b{font-weight: normal;}
+html,
+body{-webkit-touch-callout: none;-webkit-text-size-adjust: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+nav,
+article,
+aside,
+details,
+main,
+header,
+footer,
+section,
+fieldset,
+figcaption,
+figure{display: block;}
+img,
+a,
+button,
+em,
+del,
+strong,
+var,
+label,
+cite,
+small,
+time,
+mark,
+code,
+textarea{display: inline-block;}
+header,
+section,
+footer{position: relative;}
+ol,
+ul{list-style: none;}
+input,
+button,
+textarea{outline:none;border: 0;margin: 0;padding: 0;font-size: 1em;line-height: 1em;/*-webkit-appearance:none;*/background-color: rgba(0, 0, 0, 0);}
+span{display: inline-block;}
+a:active,
+a:hover{outline: 0;text-decoration:none !important;}
+a,
+a:visited{text-decoration: none;}
+button{cursor: pointer;}
+input{outline:none;}
+.fl{float: left;}
+.fr{float: right}
+a{color:#000}
+label,
+.wordWrap{word-wrap: break-word;word-break: break-all;}
+table{border-collapse: collapse;border-spacing: 0;}
+td,
+th{padding: 0;}
+.clearfix:after{content: ' ';display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.loading_more{display: block;height: 1.5em;width: 100%;}
+.loading_more:before{display: inline-block;vertical-align: text-bottom;content: ' ';height: 16px;width: 16px;margin-right: 6px;background: url("../image/loading_more.gif")/*tpa=http://www.81994.com/skin/image/loading_more.gif*/ no-repeat center;-webkit-background-size: contain;background-size: contain;}
+.marginTop30{margin-top: 30px;}
+.marginTopFooter30{margin: 30px 0px}
+.paddingTopFooter30{padding: 30px 0px}
+.loading_more:after{content: '加载更多';}
+.publicCon{width: 1200px;min-width: 1200px;margin: 0 auto}
+.border{border-style:solid;border-width: thin;border-color: #e12023;}
+.borderBo{border-bottom-style: solid;border-bottom-width: thin;border-color: #eee;}
+.dsiaplayNone{display: none;}
+.red{color:#e0181b;}
+.fl{float: left}
+.fr{float: right}
+.overfHow{overflow: hidden;}
+.border-Con{border:1px solid #000;height: 200px}
+/**清除**/.clearHidden{clear: both;}
+
+
+/*******单选复选******/
+.remembe  label{
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+    color:#aaa;
+	font-size: 15px;
+}
+.remembe  input[type='radio'],.remembe input[type="checkbox"]{
+	display:none;
+}
+.remembe  label:before{
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 16px;
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+.remembe  input[type='radio'] + label:before{
+	 border-radius: 0px;
+}
+.remembe input[type='checkbox'] + label:before{
+	 border-radius: 2px;
+}
+
+.remembe  input[type='radio']:checked+label:before{
+	content: "\2713";
+	color: #44c2ef;
+	border:1px solid #44c2ef;
+	font-size: 15px;
+	text-align: center;
+	line-height: 17px;
+	border-radius: 2px;
+}
+.remembe  input[type='checkbox']:checked+label:before{
+	content: "\2713";
+	font-size: 15px;
+	color: #44c2ef;
+	border:1px solid #44c2ef;
+	text-align: center;
+	line-height: 17px;
+	border-radius: 2px;
+}
+
+/*自动隐藏文字*/
+.aui-ellipsis-1 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+
+}
+.aui-ellipsis-2 {
+	display: -webkit-box !important;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	word-wrap: break-word !important;
+	white-space: normal !important;
+	-webkit-line-clamp: 2 !important;
+	-webkit-box-orient: vertical !important;
+}
+.aui-ellipsis-3 {
+	display: -webkit-box !important;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	word-wrap: break-word !important;
+	white-space: normal !important;
+	-webkit-line-clamp: 3 !important;
+	-webkit-box-orient: vertical !important;
+
+}

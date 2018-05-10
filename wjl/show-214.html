@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
+
+<title>微精灵分享：如何抓住客户的“心”？ - 微精灵新闻 - 微精灵网站</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/style1_38.css"  rel="stylesheet">
+<script src="js/jquery.min_18.js"></script>
+<script src="js/jquery.superslide.2.1.source_18.js"></script>
+<script src="js/basic.js"></script>
+<link href="../css/lvshandian.ico" rel="shortcut icon">
+ <link href="css/bootstrap_20.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="css/index_19.css" />
+   <link href="css/style1_39.css" rel="stylesheet" type="text/css" />
+     <link href="css/css_20.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]><script src="js/html5_18.js" ></script><![endif]-->
+<script type="text/javascript" src="js/jquery1.42.min_19.js"></script>
+<style>
+a:focus {  
+    outline:none;   
+    -moz-outline:none;
+}
+.btn-slide {
+    background-color: rgba(40,113,213,.05) !important;
+}
+.btn-slide:hover {
+    background-color: #fff !important;
+    color:#492623 !important;
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: block !important;
+  }
+}
+
+
+.slider-nav{width:82px; ! important}
+
+
+@font-face{font-style:normal;font-family:'造字工房毅黑体';
+src:url('/templates/default/images/home/造字工房毅黑体.ttf') format('truetype');}
+
+/* 本例子css */
+	.fullSlide{ width:100%;  position:relative;  height:550px; background:#000;  }
+	.fullSlide .bd{ margin:0 auto; position:relative; z-index:0; overflow:hidden;  }
+	.fullSlide .bd ul{ width:100% !important;  }
+	.fullSlide .bd li{ width:100% !important;  height:550px; overflow:hidden; text-align:center;  }
+	.fullSlide .bd li a{ display:block; height:50px; }
+
+	.fullSlide .hd{ width:100%;  position:absolute; z-index:1; bottom:0; left:0; height:30px; line-height:30px; }
+	.fullSlide .hd ul{ text-align:center; }
+	.fullSlide .hd ul li{ cursor:pointer; display:inline-block; *display:inline; zoom:1; width:42px; height:11px; margin:1px; overflow:hidden; background:#000;
+		filter:alpha(opacity=50);opacity:0.5;  line-height:999px; 
+	}
+	.fullSlide .hd ul .on{ background:#f00;  }
+
+	.fullSlide .prev,
+	.fullSlide .next{  display:block;  position:absolute; z-index:1; top:50%; margin-top:-30px; left:15%;  z-index:1; width:40px; height:60px; background:url(images/slider-arrow_19.png) -126px -137px #000 no-repeat;  cursor:pointer; filter:alpha(opacity=50);opacity:0.5; display:none;  }
+	.fullSlide .next{ left:auto; right:15%; background-position:-6px -137px; }
+.headtop .men{width:50px;height:50px;border-radius:50%;float:right;margin-top:5px;display:none;}		
+
+.headtop .men .mbox{z-index:9999;   }
+.ts{ height:50px; width:50px; border-radius:50%; cursor:pointer; background:url(images/men_19.png) center  #3ea3ff no-repeat;background-size:70% 70%;}
+ .xl{width:50px; } 
+.xl dd{border-radius:4px;border-bottom:1px solid #ccc;}
+ .xl a{display:block; height:25px;padding:0 2px; line-height:25px; background:#3ea3ff; width:58px; color:#fff; text-align:center; text-decoration:none; font-size:12px;}
+ .xl a:hover{background:#666;} 
+@media screen and (max-width: 640px) {
+ .fullSlide{height:200px;}
+ .fullSlide .bd li{height:200px;}
+ .fullSlide .bd li a{height:200px;}
+ .fullSlide .next{ width:0;height:0;}
+  .fullSlide .prev{ width:0;height:0;}
+
+ .fullSlide .hd{bottom:-5px;}
+.headtop .men{display:block;position:absolute;top:0;right:0;}
+ .headtop .men .mbox{position: fixed;right:0;top:55px;} 
+ }
+</style>
+   <script src="js/jquery_20.js"></script>
+
+    <!-- Bootstrap 响应式前端框架 -->
+    <script src="js/bootstrap.min_20.js"></script>
+</head>
+
+<body>
+
+<div class="top">   
+<div class="headtop">
+   <div class="logo" style="width: 810px">
+    <img src="picture/201708181120163779.png" width="300">   
+    <span style="font-size: 20px;float: right;font-weight: 500;color: #999999;">微信号/手机号:<span style="color:#3AA1FF;font-family: arial;">18810146618</span></span>
+   </div>
+    <!--<ul >
+	<li><a href="/">首页</a></li> 
+       <li><a href="#">营销手机</a></li> 
+    <li><a href="">群控系统</a></li> 
+    <li><a href="">代理加盟</a></li> 
+    <li><a href="">移动案例</a></li> 
+     <li><a href="">体验</a></li> 
+     <li><a href="">联系我们</a></li>
+  
+  </ul>
+
+  <div class="men xl" id="mm1" >
+  <div class="ts" id="mm1"></div> 
+  <dl class="shows mbox" id="mm2"> 
+  <dd><a href="/">首页</a></dd>
+   <dd><a href="#">营销手机</a></dd>
+   <dd><a href="#">群控系统</a></dd>
+   <dd><a href="#">代理加盟</a></dd>
+    <dd><a href="#">移动案例</a></dd>
+   <dd><a href="#">体验</a></dd>
+   <dd><a href="#">联系我们</a></dd>
+</dl> -->
+</div>
+<script>
+
+$(function(){
+
+$("#mm2").hide();
+   var x=1
+	
+	$("#mm1").click(
+	function(){
+	     if(x){
+		 $("#mm2").show();
+		 x=0;
+		 
+		 }else{
+		 $("#mm2").hide();
+		 x=1;
+		 }
+	     
+	});
+});
+</script>
+</div>
+</div>
+  <div class="clear"></div>  
+<div style="clear:both;"></div>
+<div style="width:1200px;margin: 0 auto;"><img src="picture/banner4_18.jpg" style="width:100%;"></div>
+
+
+<div class="news_box wrap">
+
+    <div class="crumbs">
+
+        <img src="picture/site.jpg" width="17" height="20" alt=""/>
+
+        您的当前位置： <a href="/">首页</a> - <a href="/news/0.html">新闻资讯 </a> - <span  class="on">微精灵新闻</span>
+
+    </div>
+
+    <div class="news_cont">
+
+        <h2>微精灵分享：如何抓住客户的“心”？</h2>
+
+        <p class="date">日期：2017-10-17 10:26:45      来源：微精灵网站</p>
+
+        <p class="text">
+
+        <p class="p" style="text-indent:2em;vertical-align:baseline;background:#FFFFFF;">
+	<span style="font-size:18px;">当今移动互联网和微信的快速发展，给予我们的是巨大的营销舞台，和展示自己营销思想与才情的机会。微信朋友圈，因为聚集了一群信任度高、相互了解的朋友，是口碑营销的最佳场地，而它的高关注度和高转发率，为营销提供了快跑和飞翔的机会。下面分享一些在移动互联网时代，快速抓住客户</span><span style="font-size:18px;">“心”的方法。</span><br />
+<span style="font-size:18px;">1.描述对方内心中真正的渴望。</span><br />
+<span style="font-size:18px;">成交的心理过程有三步：第一步，进入对方的世界</span><span style="font-size:18px;">(描绘客户的内心)；第二步，把客户带到他的世界的边缘(引导客户)；第三步，将客户带入你的世界(实现营销)。</span><br />
+<span style="font-size:18px;">而实际上，近年来所流行的</span><span style="font-size:18px;">“顾问式营销”、“营销教练技术”等等这些，都是由这一条引发出来。而其中的关键，恰恰是第一步——用准确的语言描述对方的渴望和愿景，以进入对方的世界。</span><br />
+<span style="font-size:18px;">2.建立强大的信赖。</span><br />
+<span style="font-size:18px;">想要客户把他的钱放入你的口袋，你需要建立强大的信赖感。建立强大的信赖感，你可以通过分步成交，完成信赖感的建立。如果你想要成交一笔金额较大的订单，那么不妨设计多步成交环节。</span><br />
+<span style="font-size:18px;">第一步，让对方付出很小的代价，就得到应有的价值，并开始获益；第二步，开展咨询，为客户使用产品提供指导；第三步，完成全部交易；第四步，让客户进行服务见证，通过客户的见证去发展新的客户。</span><br />
+<span style="font-size:18px;">3.让客户享受你提供的价值，然后再收取回报。</span><br />
+<span style="font-size:18px;">为什么如今</span><span style="font-size:18px;">QQ、微信、微博、360等等大巨头都是靠免费起家，却能够创造巨大的回报？原因就是他们先让客户享受了他们提供的价值，把客户就下来，然后再慢慢进行营销！</span><br />
+<span style="font-size:18px;">你要设计你的营销流程，让客户首先体验到你的价值，而后再支付金钱。这样做，你的回报将会成倍成倍地增加，因为客户只有在获得价值后，才支付金钱，你则将所有交易的风险都一肩承担。</span><br />
+<span style="font-size:18px;">4.激活客户的好奇心。</span><br />
+<span style="font-size:18px;">好奇害死猫。同样地，好奇也会促使客户花钱购买。如果你的产品，或者你对产品的描述，可以激发客户的好奇心，那么你就再也不用担心营销了。</span><br />
+<span style="font-size:18px;">营销就是变魔术，一旦揭穿了谜底，尽管表演同样精彩，光彩也将退色不少。现在，就立即修改你的广告词和对产品的描述，</span><span style="font-size:18px;">“一定要让广告词像魔术、像谜语、像半裸的少女。让客户忍不住，想要掀开表面，看到内在。而揭秘的代价，就是购买!”</span><br />
+<span style="font-size:18px;">但是，一个前提就是你的产品必须能够给到客户实质的价值，不要存在欺骗的行为，不要挂羊头卖狗肉，欺骗只能做一时，产品能够给到客户真正的价值，才能让客户跟随你，爱上你！</span><br />
+<span style="font-size:18px;">虽然有人反感朋友圈营销，但如果用得恰到好处，给用户带来知识，带来乐趣，甚至带来好处，那么他就会欣然接受。</span><a href="http://www.vsj.cn/"><span style="font-size:18px;">微信营销</span></a><span style="font-size:18px;">，就是告诉你如何在朋友圈做好演员，以优秀的演技来获得用户的好感甚至鼓掌。因此，做好微信营销，再小的品牌，也能在下一秒，创造出奇迹！</span>
+</p>
+
+
+        </p>
+
+    </div>
+
+    <div class="page_list">
+
+        <ul>
+
+            <li><span class="label">上一篇：</span><a href="/news/show-213.html">现在微信代理卖什么最火？微精灵智能营销手机！</a></li>
+            <li><span class="label">下一篇：</span><a href="/news/show-215.html">四大攻心消费者心理学，带你学会营销，狠戳用户痛点！</a></li>
+        </ul>
+
+    </div>
+    </div>
+
+</div>
+
+
+
+﻿    <div class="footerinfo" style="display:block">
+        <div class="container">
+		   <div class="row">
+				<div class="col-md-9 col-sm-12 col-xs-12">
+				
+				  <div  class="footerinfo_logo">
+				      <img src="picture/logo_footer_20.png">
+				  </div>
+				 <div class="footerinfo_text">
+						<span>
+						版权所有北京绿闪电科技有限公司 ? Copyright 2014 - 2017. lvshandian. All Rights Reserved.
+							<a href="#"  target="_blank" style="display:inline-block;text-decoration:none;height:20px;margin-left: 10px;line-height: 6px;">
+							<!-- <p style="color: #999999; font-size:12px;display: inline-block; margin-right: 30px;margin-left: 5px;">沪公网安备 31011502203257号</p> -->
+							</a>
+							
+						</span>
+						<br>
+						<span>
+						 <a class="footerinfo_l1" href="">联系我们</a>|
+						  <a class="footerinfo_l1" href="">代理申请</a>|
+						   <a class="footerinfo_l1" href="">授权验证</a>|
+						    <a class="footerinfo_l1" href="">诚品英才</a>|
+							 <a class="footerinfo_l1" href="">联系我们</a>
+						
+						</span>
+						<div class="span1">
+						<span>
+						北京绿闪电科技有限公司
+						</span>
+						
+						</div>
+				 
+				 </div>
+				</div>
+		   <div class="col-md-3 col-sm-12 col-xs-12 baidushare"  style="display:none;">
+		    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+			<span class="bds_more" style="line-height:normal;">分享到：</span>
+			<a class="bds_tsina" title="分享到新浪微博" href="#" >分享到：</a>
+			
+			<script src="js/bds_s_v2_20.js"></script>
+			<script src="js/shell_v2_20.js"></script>
+			</div>
+		   
+		   </div>
+		   
+		   </div>
+		
+		
+		</div>
+    </div>
+
+<!--js-->
+
+<script type="text/javascript">
+
+    jQuery(".focusBox,.focusBox1,.focusBox2").slide({ mainCell:".pic",effect:"left", autoPlay:true, delayTime:400,interTime:3000});
+
+</script>
+
+<script type="text/javascript">
+
+    jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,effect:"left"});
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+﻿
+
+
+.w1200{ width:76%; margin:0 auto; }
+ 
+ 
+
+.tit{ font:18px/30px microsoft yahei; text-align:center; background:url(../images/tit.jpg) no-repeat bottom center; padding-bottom:15px; margin-bottom:20px }
+.tit span{ font:20px/30px Arial, Helvetica, sans-serif; }
+.tit a{ color:#040404}
+
+.tit1{ font:18px/30px microsoft yahei; text-align:center; background:url(../images/tit1.jpg) no-repeat bottom center; padding-bottom:15px; margin-bottom:20px; color:#fff }
+.tit1 span{ font:20px/30px Arial, Helvetica, sans-serif; }
+.tit1 a{ color:#fff}
+
+.tit2{ color:#333;font:16px/50px microsoft yahei;  }
+.tit2 a{ color:#333;  }
+.tit3{ color:#333;font:20px/70px microsoft yahei;  }
+.tit3 a{ color:#333;  }
+ 
+ 
+ 
+
+
+
+
+/*新闻*/
+.inews{ margin:40px 0 0 0}
+ 
+ 
+ 
+
+.inews .topnews-ul{ }
+.inews .topnews-ul li{   font:14px/40px microsoft yahei;   background:url(../images/ico.jpg) no-repeat left center; text-indent:25px; width:38%; margin:0 5%; float:left; position:relative}
+.inews .topnews-ul li:hover{background:url(../images/ico1.jpg) no-repeat left center;} 
+.inews  .topnews-ul  span{ position:absolute; right:0; top:0;  color:#919191; }
+ 
+.more{ background:none; text-align:center; border:#fff 1px solid; width:142px; height:44px;font:16px/44px Arial, Helvetica, sans-serif; color:#fff; margin:50px  auto 0 auto}
+.more a{  color:#fff; }
+ 
+
+/*联系我们*/
+@media screen and  (max-width:640px)  {
+ .inews .topnews-ul li{width:98%;margin:5px 0;}
+ .inews .topnews-ul li a{overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap; display:inline-block;width:62%;}
+
+.w1200{ width:100%; margin:0 auto; }
+}
+
+ 
+ 

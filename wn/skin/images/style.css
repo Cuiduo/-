@@ -1,0 +1,602 @@
+@charset "UTF-8";
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); 
+}
+/*****顶部***/
+.header{background: #fff;border-bottom: 1px solid #ccc;box-shadow:0px 1px 1px #eee;}
+
+.header .header-hd{height: 50px;line-height: 50px}
+.header .header-hd ul{}
+.header .header-hd ul li{display: inline-block;text-align: center;width: 60px;border-right: 1px solid #eee;}
+.header .header-hd ul li:first-child{border-left: 1px solid #eee;}
+.header .header-hd ul li a{font-size: 14px;color:#999 !important;}
+/*.header .header-hd ul .active{background: #32c7e9;}*/
+.header .header-hd ul .reg:hover{background: #32c7e9;color:#fff !important;}
+.header .header-hd ul .reg:hover a{color:#fff !important;}
+.header .header-hd ul .active a{color:#fff}
+.header .header-hd ul li a  img{position: relative;top: 5px}
+.header .header-hd .moblieCon{padding:0px 15px}
+.header .header-hd .moblieCon img{position: relative;top: 12px;right: 10px}
+.header .header-hd .moblieCon .moblieText{}
+.header .header-hd .moblieCon .moblieText p{font-size: 16px;display: block;line-height: 20px;color:#666666;position: relative;top: 5px}
+.header .header-hd .moblieCon .moblieText b{font-size: 14px;display: block;line-height: 28px;color:#666666}
+/******banner 幻灯片******/
+.publicBanner{height: 735px;background: #3fbff0 url("banner.png")/*tpa=http://www.81994.com/skin/images/banner.png*/ no-repeat center bottom;position: relative;z-index: 1;top: -1px; overflow: hidden;text-align: center;}
+.publicBanner2{height: 735px;background: #3fbff0 url("jiamengbg.png")/*tpa=http://www.81994.com/skin/images/jiamengbg.png*/ no-repeat center bottom;position: relative;z-index: 1;overflow: hidden;text-align: center;}
+.goumai{height: 546px;background: #3fbff0 url("banner_033.png")/*tpa=http://www.81994.com/skin/images/banner_033.png*/ no-repeat center bottom;}
+.publicBanner .bannerImg{position: absolute;bottom: 0}
+.bannerText{text-align: center;position: relative;top:195px;width: 100%;color: #fff;}
+.bannerText .bannerH2{font-size: 36px;line-height: 40px;font-weight: 900;color: #AD39AB}
+.bannerText .bannerP{text-align:center;font-size: 20px;padding:20px 0px;width:900px;margin:auto;}
+.bannerA{display: inline-block;border:2px solid #fff;padding:12px 40px;color:#fff;border-radius: 40px;font-size: 18px;position: relative;
+top: 34px;}
+.bannerTwo{position: absolute;bottom: 0px;z-index: 3;}
+.bannerOne{position: relative;bottom: -270px;z-index: 3;}
+.bannerThree{position: absolute;bottom: 0px;z-index: 3;}
+.bannerImgCon{text-align: center;overflow: hidden;}
+/******nav******/
+.navCon{position: absolute;z-index: 2;width: 1200px;left: 50%;margin-left: -600px}
+.navCon .logo{padding:40px 0px 0px 0px}
+.navCon .logo img{}
+.navCon ul{overflow: hidden;margin-top: 40px;font-size: 16px;}
+.navCon ul li{display: inline-block;width: 100px;text-align: center;line-height: 42px;margin-right: 0px;height:42px;font-size:16px;}
+.navCon ul li a{color:#fff;font-size:16px;}
+.navCon ul li.active{border:1px solid #fff;border-radius: 30px;width: 110px;line-height:40px;height:40px;font-size:16px;}
+.navCon ul li:hover{border:1px solid #fff;border-radius: 30px;width: 110px;line-height:40px;height:40px;font-size:16px;}
+/****标题******/
+.contentH2{text-align: center;font-size: 30px;}
+.public-margin-t-100{margin-top: 100px;}
+
+/**********/
+.indexOne{margin: 100px auto;}
+.indexOne ul{overflow: hidden;width: 1220px;}
+.indexOne ul li{display: inline-block;text-align: center;width: 280px;height:200px;position: relative;margin-right: 19px;padding:30px 0px}
+.indexOne ul li span{}
+.indexOne ul li span img{}
+.indexOne ul li h3{font-size: 24px;padding:30px 0px;font-weight: normal;color:#333}
+.indexOne ul li p{font-size: 14px;padding:0px 25px;color:#888}
+.indexOne ul li:hover{background: #f3f3f3;}
+
+/*********/
+.indexTwoCon{height: 435px;background: #f89f00 url("onebanner_02.png")/*tpa=http://www.81994.com/skin/images/onebanner_02.png*/ no-repeat center top;}
+.indexTwo{text-align: center;color:#fff;font-size: 30px;padding-top: 100px;}
+.indexTwo a{display: inline-block;background: #fff;height: 70px;line-height: 70px;border-radius: 35px;color: #f89f00;font-size: 22px;width: 300px;margin-top: 50px;}
+#scrollDiv{height: 236px;overflow: hidden;}
+
+/*****补充****/
+.bannerText a:hover{background: #fff;color:#3fbff0}
+.publicHide{display: none;}
+.header-hd {position: relative;z-index: 0}
+ .weixin{display:  none;z-index: 222;right: : 0px;clear: both;position: absolute;top: 0px;right: 0px;border:5px solid rgba(0,0,0,.2);height: 114px;}
+.navCon ul li a:hover{background: #fff;color:#3fbff0 !important;display: block;border-radius: 30px;font-size: 16px;}
+.fixedNavCon{background-color: rgba(0,0,0,0.8);height: 65px;position: fixed;top: 0;z-index: 9999999;width: 100%}
+.fixednav{z-index: 2;width: 1200px;}
+.fixednav .logo{padding:10px 0px}
+.fixednav .logo img{}
+.fixednav ul{overflow: hidden;margin-top: 18px}
+.fixednav ul li{display: inline-block;width: 100px;text-align: center;line-height: 30px;margin-right: 5px}
+.fixednav ul li a{color:#3fbff0;font-size: 16px;}
+.fixednav ul li.active a{color:#fff;}
+.fixednav ul li a:hover{color:#fff !important;}
+.fixednav ul li.active {border-radius: 10px;width: 100px;background: #3fbff0;color:#fff !important;}
+.fixednav ul li:hover{border-radius: 10px;width: 100px;background: #3fbff0;color:#fff !important;}
+/***********/
+.floating_ck{position:fixed;right:20px;top:30%;z-index: 99999999}
+.floating_ck dl dd{position:relative;width:56px;height:56px;line-height: 56px;background-color:#3c4452;border-bottom:solid 1px #555666;text-align:center;background-repeat:no-repeat;background-position:center 20%;cursor:pointer;border-radius:5px;margin-bottom: 5px}
+.floating_ck dl dd:hover{background-color:#3ac3e2;border-bottom:solid 1px #3ac3e2;}
+.floating_ck dl dd:hover .floating_left{display:block;}
+.floating_ck dd span{color:#fff;display:block;color:#fff;padding-top: 11px;}
+.floating_left{position:absolute;left:-150px;top:0px;width:160px;height:56px;background-color:#3ac3e2;border-bottom:solid 1px #3ac3e2;display:none;border-radius: 5px;}
+.floating_left a{color:#fff;line-height:56px;}
+.floating_ewm{height: 184px;top:-50px;}
+.floating_ewm i{background:url(coder.jpg) no-repeat ;display:block;width:145px;height:145px;margin:auto;margin-top:7px;background-size: 98%;}
+.floating_ewm p{color:#fff;margin-top:5px;}
+.floating_ewm .qrcord_p01{font-size:14px;line-height:20px;}
+.floating_ewm .qrcord_p02{font-size:18px;}
+.qqcon a{padding:0px 10px}
+
+/******关于我们*******/
+.abountNavCon{width: 100%;overflow: hidden;}
+  .abountNav{z-index: 2;width: 1200px;position: relative;}
+  .abountNav .logo{padding:40px 0px}
+  .abountNav .logo img{}
+  .abountNav ul{overflow: hidden;margin-top:40px}
+  .abountNav ul li{display: inline-block;width: 139px;text-align: center;line-height: 40px;margin-right: 5px}
+  .abountNav ul li a{color:#000;}
+  .abountNav ul li.active a{color:#3ac3e2;}
+  .abountNav ul li a:hover{color:#3ac3e2 !important;}
+  .abountNav ul li.active {border-radius: 30px;width: 139px;background: #fff;color:#3ac3e2 !important;border:2px solid #3ac3e2}
+  .abountNav ul li:hover{border-radius: 30px;width: 139px;background: #fff;color:#3ac3e2 !important;border:2px solid #3ac3e2}
+/*******内页banner******/
+.abountBg{background:#3fbff0 url("abountbg.jpg")/*tpa=http://www.81994.com/skin/images/abountbg.jpg*/ no-repeat right center;height:200px}
+.abountBgCon{text-align: center;color:#fff;padding-top: 20px}
+.abountBgCon span{color:#fff;font-size: 28px}
+.abountBgCon h3{padding:15px 0px;font-size: 36px;font-weight: normal;}
+.abountBgCon p{font-size: 18px}
+/*****tabs内页***/
+
+.abountTabsCon {width: 100%;height: 50px;border-bottom: 1px solid #ddd;line-height: 50px;overflow: hidden;}
+.abountTabs{overflow: hidden;}
+.abountTabs span{float:left;color:#666;font-size: 13px}
+.abountTabs span i{height: 40px;width: 3px;background: #3fbff0;border-radius: 2px;margin-right: 10px}
+.abountTabs span a{font-size: 13px;color:#666;padding:0px 10px}
+/************/
+.abountOneCon{overflow: hidden;}
+.abountOne ul{position: relative;width: 1220px;padding:30px 0px;overflow: hidden;}
+.abountOne ul li{position: relative;width: 390px;display: inline-block;float: left;z-index: 99;margin-right: 12px;padding:40px 0px}
+.abountOne ul li span{background: #f94180;color:#fff;width: 55px;height: 55px;border-radius: 100%;line-height: 55px;font-size: 22px}
+.abountOne ul li h2{color:#000;font-size: 24px;font-weight: normal;margin: 20px 0px}
+.abountOne ul li p{color:#666;font-size: 13px;}
+.abountOne ul li:hover{background: #f3f3f3}
+/*******/
+.wampCon{height: 380px;background:url("map_02.jpg")/*tpa=http://www.81994.com/skin/images/map_02.jpg*/ no-repeat center center}
+.wampCenter{width: 700px;height: 150px;border-radius: 75px;background: #3fbff0;color:#fff;position: relative;left: 50%;margin-left:-350px;top: 130px;overflow: hidden;;}
+.wampCenter .wampLicon{display: inline-block;width: 100px; height: 50px;margin:45px 0px 45px 45px;border-right: 2px solid #fff}
+.wampCenter .wampText{margin: 45px 0px 45px 30px;}
+.wampCenter .wampRicon{margin: 52px 0px 17px 43px;}
+.wampCenter:hover{background: #f94180;color:#fff}
+/*********/
+.JoiningCon{padding: 125px 0px}
+.joining{text-align: center;}
+.joining span{margin: 0px 0px 20px 0px}
+.joining h3{font-size: 56px;color:#fff;padding-bottom: 20px}
+.joining p{color:#fff;font-size: 16px;line-height: 28px}
+/**********/
+.joiningBg{background: #6592e3}
+.joningListCon{overflow: hidden;position: relative;padding:67px 0px 80px 0px}
+.joningListCon .joninglist{width: 570px;height: 150px;display: inline-block;float: left;border:2px solid #fff;border-radius: 75px;position: relative;margin-right: 25px;margin-bottom: 25px}
+.joningListCon .joninglist i{margin:50px 0px 0px 45px;border-right: 2px solid #fff;font-style: normal;color:#fff;font-size: 26px;padding-right: 10px}
+.joningListCon .joninglist span{width: 350px;display: inline-block;  margin: 30px 24px;color:#fff;font-size: 13px;line-height: 25px}
+/**************/
+.joiningOne{padding:100px 0px 60px 0px;}
+.joiningOne .joiningCon h3{text-align: center;display: block;font-size: 30px;padding:0px 0px 30px 0px;font-weight: normal;}
+.joiningOne .joiningCon span{text-align: center;display: block;width: 100%}
+/**********/
+.joiningTwo{background: #ff9d13;padding:50px 0px}
+.joiningTwoCon {text-align: center;}
+.joiningTwoCon h3{font-size: 36px ;color:#fff;font-weight: normal;padding:30px 0px 0px 0px;text-align: center;}
+.joiningTwoCon .joinHr{color:#fff;font-size: 28px;margin: 0 auto;}
+.joiningTwoCon .yuan{background: #fff;width: 360px;height: 360px;border-radius: 100%;margin: 20px auto;}
+.joiningTwoCon .yuan span{padding:50px 0px 5px 0px;font-size: 24px;color:#888888;font-weight: normal;}
+.joiningTwoCon .yuan h4{font-size: 60px;font-weight: normal;color:#888;margin-top: 52px;}
+.joiningTwoCon .yuan p{font-size: 14px;color:#888;margin-top: 36px}
+.joiningTwoCon ul{overflow: hidden;clear: both;padding-top: 30px}
+.joiningTwoCon ul li{width: 33.33%;display: inline-block;float:left;}
+.joiningTwoCon ul li h1{color:#fff;font-weight: normal;font-size: 60px}
+.joiningTwoCon ul li span{display: block;color:#fff;font-size: 28px}
+.joiningTwoCon ul li p{color:#fff;font-size: 18px;}
+
+/************/
+.joiningThree{background: url("joiningbanner.png")/*tpa=http://www.81994.com/skin/images/joiningbanner.png*/ no-repeat center bottom;padding-top: 50px;text-align: center;}
+.publicH3{padding-bottom: 30px}
+.publicH3 h3{font-size: 48px;font-weight: normal;color:#333;}
+.publicH3 p{color:#666;font-size: 18px;}
+.publicH3 span{color:#333;font-size: 28px;}
+.joiningThree  span img {position: relative;bottom: -4px;}
+.joiningThree .joiningTreeCon{}
+.joiningThree .joiningTreeCon{}
+  /****************/
+  .joiningFour{background: #3fbff0;text-align: center;}
+  .joiningFour .joiningFourCon{padding:80px 0px;}
+  .joiningFour .joiningFourCon p{line-height: 38px;font-size: 20px;color:#fff;}
+  .joiningFour .joiningFourCon h3{color:#fff;font-size: 36px;margin-top: 30px}
+  /************/
+.joiningSix{text-align: center;padding:60px 0px}
+.joiningSix .joiningSixCon{}
+.publicH4{padding-bottom: 30px}
+.publicH4 h3{font-size: 35px;font-weight: normal;color:#333;}
+.publicH4 h4{font-size: 35px;font-weight: normal;color:#333;margin-top:140px}
+.publicH4 p{color:#666;font-size:18px;line-height: 25px}
+.publicH4 span{color:#333;font-size: 28px;display: block;}
+.joininSixImg{text-align: center;}
+.joiningSix a{margin-top: 30px;width: 300px;height: 68px;line-height: 68px;font-size: 22px;border-radius: 34px;background: #fff;color:#888;text-align: center;display: inline-block;margin:0 auto;border:2px solid #ddd;}
+.joiningSix  a:hover{background: #e7266a;color:#fff;}
+
+/************8/
+ *
+ */
+.footer{height: 400px;background: #2d3648;width: 100%}
+.footerCon .footerLeft{width: 425px;}
+.footerCon .footerLeft img{padding:75px 0px}
+.footerReight{width: 750px;}
+.footerReight .footernav{margin:75px 0px 20px 0px}
+.footerReight .footernav a{color:#fff;font-size: 14px;border-right: 1px solid #3d475a;padding:0px 10px}
+.footerText p,.footerText2 p{color:#838fa5;font-size: 12px;line-height: 20px;}
+.footerText2 h4{color:#fff;font-size: 14px;margin-top: 20px;padding-bottom: 10px;font-weight: normal;}
+.footerReight .footernav a:first-child{padding-left: 0px;}
+.footerReight .footernav a:hover{color:#32c7e9}
+.footerReight .footernav a:last-child{border-right: none;}
+/*********/
+.indexSivceCon{border-top: 1px solid #ddd;height: 105px;padding:20px 0px 0px 0px;}
+.indexSivceCon .indexSivce{}
+.indexSivceCon .indexSivce .indexSivceLeft{width: 400px;text-align: center;}
+.indexSivce .indexSivceLeft ul{overflow: hidden;}
+.indexSivce .indexSivceLeft ul li{display: inline-block;width: 100px;}
+ .indexSivceLeft ul li span{width: 60px;height: 60px;border-radius: 100%;line-height: 60px;background: #32c7e9;text-align: center;}
+ .indexSivceLeft ul li span i{color:#fff}
+ .indexSivceLeft ul li p{font-size: 13px;color:#555;margin-top: 10px;}
+
+/**********/
+.indexSixCon{text-align: center;padding:112px 0px 50px 0px}
+.indexSixCon .indexFix{}
+.indexSixCon .indexFix h2{font-size: 52px;font-weight: normal;color:#32c7e9;padding-bottom: 20px;}
+.indexFix p{font-size: 18px;line-height: 26px;}
+.indexSixCon .indexFix a{width: 275px;height: 60px;line-height:60px;display: inline-block;margin: 0 auto;border-radius: 30px;background: #f9418b;color:#fff;font-size: 22px;margin: 40px;}
+.indexSixCon .indexFix a:hover{background: #e7266a;color:#fff}
+
+/***********/
+.indexFourCon{background: #32c7e9;}
+#zzsc {
+	height: 260px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+
+	margin-top: 50px;
+}
+#zzsc .pre{
+	background-image: url("nav.png")/*tpa=http://www.81994.com/skin/images/nav.png*/;
+	background-repeat: no-repeat;
+	background-position: -50px top;
+	display: block;
+	height: 47px;
+	width: 25px;
+	cursor:pointer;
+	position: absolute;
+	left: -35px;
+	top: 63px;
+}
+#zzsc a.pre:hover{
+	background-position: -75px top;
+	}
+#zzsc .next{
+	background-image: url("nav.png")/*tpa=http://www.81994.com/skin/images/nav.png*/;
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: block;
+	height: 47px;
+	width: 25px;
+	cursor:pointer;
+	top: 63px;
+	right: -35px;
+	position: absolute;
+	}
+#zzsc a.next:hover{
+	background-position: -25px top;
+	}
+#zzsc #wai_box {
+	height: 190px;
+	width: 1200px;
+	overflow: hidden;
+	position: relative;
+}
+#zzsc #wai_box .zzsc_box .title {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 30px;
+	color: #FFFFFF;
+	background:rgba(000, 000, 000, 0.5);
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorstr=#6B000000,endColorstr=#6B000000);
+	display: none;
+	height: 30px;
+	position: absolute;
+	bottom: 0px;
+	z-index: 30;
+	width:248px;
+	text-indent: 1em;
+	left: 0px;
+}
+#zzsc .zzsc_box{
+	width: 2976px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#zzsc .zzsc_box a.img:hover{
+	-moz-opacity:0.9;
+	-khtml-opacity:0.9;
+	Opacity:0.9;
+	Filter:alpha(opacity=90);
+	outline:none;
+}
+#zzsc .zzsc_box .img{
+	display: block;
+}
+#zzsc .zzsc_box ul {
+	float: left;
+	display: block;
+	height: 220px;
+	width: 1200px;
+}
+#zzsc .zzsc_box li {
+	float: left;
+	font-size: 0px;
+	line-height: 0px;
+	position: relative;
+	    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#zzsc .nav {
+	height: 5px;
+	margin-top: 20px;
+	width:167px;;
+	margin-right: auto;
+	margin-left: auto;
+}
+#zzsc .nav a {
+	background:#fff;
+	display: block;
+	float: left;
+	height: 5px;
+	width: 75px;
+	font-size: 0px;
+	line-height: 0px;
+	margin-right: 2px;
+	cursor:pointer;
+}
+#zzsc .nav a:hover{
+	background-color: #fff;
+}
+#zzsc .nav .now{
+	background-color: #999;
+}
+
+.indexFour h2{text-align: center;font-size: 23px;font-weight: normal;padding:80px 0px 0px 0px;color:#fff;}
+/********/
+.indexThreeCon{overflow: hidden;padding:100px 0px}
+.indexThree{}
+.indexThree .indexThreeLeft{width: 840px;}
+.indexThree h2{height: 50px;font-size: 22px;font-weight: normal;}
+.indexThree h2 a{float: right;display: inline-block;width: 60px;line-height: 25px;font-size: 12px;background: #424a5a;color:#fff;border-radius: 12px;text-align: center;margin-right: 70px;}
+.indexThreeLeft ul li{display: block;padding:30px 0px;width: 240px;float: left;margin-right: 35px;}
+.indexThreeLeft ul li span{display: block;text-align: center;height: 70px;}
+.indexThreeLeft ul li h5{font-size: 14px;padding:20px 0px;text-align: left;color:#333333;font-weight: normal;height: 30px;}
+.indexThreeLeft ul li p{font-size: 12px;color:#999}
+
+.indexThreeRight{border:1px solid #eee}
+.indexThreeRight ul li{padding:20px 0px;border-bottom: 1px solid #eee;}
+.indexThreeRight ul li:last-child{border-bottom: none;}
+.indexThreeRight ul{padding:0px 10px}
+.indexThreeRight ul li p{color:#32c7e9;font-size: 12px;}
+.indexThreeRight ul li span{font-size: 12px;}
+/************/
+.joiningSeviceCon{padding-top: 0px}
+.joiningSevice{text-align: center;}
+/***********/
+.eightCon{border-top: 1px solid #ddd;padding: 50px 0px}
+.eight{text-align: center;}
+.eightVideo{border:5px solid #333;}
+.eight p{text-align: left;text-indent: 16rem;margin: 10px 0px;color:#888}
+.eight p i{margin: 5px 0px;width: 3px;height: 20px;border-radius: 2px;background: #32c7e9;margin-right: 10px}
+/*************/
+.nineCon{background: #3ac3e2;padding:50px 0px}
+.nineCon .nine{}
+.nineCon .nine h3{font-size: 24px;font-weight: normal;color:#fff;text-align: center;}
+.nine ul {overflow: hidden;width: 920px;margin: 0 auto;padding:50px 0px}
+.nine ul li{display: inline-block;float: left;margin-right: 10px;margin-bottom: 10px;}
+/*******/
+.tenCon{text-align: center;padding:50px 0px}
+.tenCon .ten{}
+.tenCon .ten ul {overflow: hidden;padding: 50px 0px}
+.tenCon .ten ul li{display: block;width: 500px;float: left;overflow: hidden;margin-bottom: 20px;margin-right: 100px}
+.tenCon .ten ul li i{display: inline-block;width: 60px;height: 60px;border-radius: 100%;color:#fff;background: #f94175;text-align: center;line-height: 60px;font-style: normal;font-size: 24px;margin-top: 15px;}
+.tenCon .ten ul li span{width: 420px;color:#888;text-align: left;margin-left: 15px}
+.tenCon .ten ul li span p{font-size: 14px;color:#888;}
+/*********/
+.elevenCon{padding:50px 0px;background: #3ac3e2;}
+.elevenCon .eleven{text-align: center;color:#fff}
+.elevenCon .eleven h4{font-size: 28px;padding-bottom: 50px;font-weight: normal;}
+.eleven ul{overflow:hidden;position: relative;width: 1220px;z-index: 0;height: 600px;}
+.eleven ul li{float: left;width: 370px;display:block;border:1px solid #f3f3f3;overflow: hidden;height: 160px;margin-right: 32px;margin-bottom: 32px}
+.eleven ul li span{width: 250px;padding:10px;text-align: left;}
+.eleven ul li i{width: 100px;line-height: 160px;font-style: normal;text-align: center;font-size: 20px;}
+.eleven ul li p{font-size: 13px;padding:0px 20px}
+.eleven ul li h3{padding:0px 20px}
+/*****/
+.twelveCon{text-align: center;padding:50px 0px}
+.twelve{}
+.twelve ul{overflow: hidden;text-align: left !important;}
+.twelve ul li{width: 240px;float: left;display: inline-block;margin-right: 60px;padding-bottom: 30px}
+.twelve ul li h5{font-size: 18px;font-weight: normal;padding:15px 0px;text-align: left;}
+.twelve ul li p{font-size: 13px;color:#888;text-align: left;}
+/**********/
+
+.thirteenCon{padding:50px 0px;background: #f94175;color:#fff}
+.thirteenCon .thirteen {text-align: center;}
+.thirteen .publicH4 h3{color:#fff}
+.thirteen .publicH4 span{color:#fff}
+.thirteen ul{overflow: hidden;}
+.thirteen ul li{display: block;float: left;width: 350px;margin-right:50px}
+.thirteen ul li i{display:inline-block;width: 80px;height: 80px;background: #fff;border-radius: 100%;line-height: 80px;text-align: center;color:#f94175;font-style: normal;font-size: 35px;margin:20px 0px}
+.thirteen ul li h2{font-size: 18px;color:#fff;line-height: 25px;font-weight: normal;height: 100px;}
+.thirteen ul li p{ border:1px dashed #fff;padding:10px;border-radius: 5px;font-size: 13px;line-height: 25px;text-align: left;}
+/**********/
+.fourteenCon{padding:50px 0px;}
+.fourteen{text-align: center;}
+.fourteen a{display: inline-block;width: 300px;height: 65px;line-height: 65px;border-radius: 32px;background:#f94175;color:#fff; font-size: 25px;margin:20px 0px}
+.fourteen a:hover{background: #dc2f60;color:#fff;}
+
+/**********/
+.fifteenCon{background: #323b4d;padding:100px 0px;}
+.fifteen{text-align: center;}
+.fifteen h3{ color:#fff;}
+.fifteen span{color:#f3f3f3}
+.fifteen ul{overflow: hidden;}
+.fifteen ul li{display: inline-block;width: 320px;margin-right:80px;float: left}
+
+.fifteen ul li i{color:#32c7e9;padding:10px 0px 30px;}
+.fifteen ul li p{color:#fff;font-size: 18px;}
+
+/***********/
+.aboutUsCon{padding:50px;}
+.abountUs{text-align: center;}
+.abountUs em{padding-bottom: 20px}
+.abountUs p{font-size: 14px;line-height: 25px;color:#888;text-align: left;}
+.abountUsImg{width: 100%;text-align: center;overflow: hidden;background: url("gy2.jpg")/*tpa=http://www.81994.com/skin/images/gy2.jpg*/ no-repeat center center;height: 753px;}
+/**********/
+.softwareCon{text-align: center;width: 100%;height: 380px;background: url("goumai.gif")/*tpa=http://www.81994.com/skin/images/goumai.gif*/ no-repeat center center;}
+.softwareOneCon{padding:50px 0px}
+.softwareOne{text-align: center;}
+.softwareOne img{padding:20px 0px}
+/***********/
+.softwareTwoCon{background: #f3f3f3;padding:50px 0px}
+.softwareTwo{text-align: center;}
+/*********/
+.payment{background:#3fbff0 url("fkbg.gif")/*tpa=http://www.81994.com/skin/images/fkbg.gif*/ no-repeat center center !important;height: 300px}
+.abountBgCon{text-align: center;color:#fff;padding-top: 100px}
+.abountBgCon span{color:#fff;font-size: 28px}
+.abountBgCon h3{padding:15px 0px;font-size: 36px;font-weight: normal;}
+.abountBgCon p{font-size: 18px}
+/********/
+.softwareThreeCon{background: #f3f3f3;padding:20px 0px; }
+.softwareList{background: #fff;border:1px solid #ddd;overflow: hidden;}
+.softwareList .softwareLeft{width: 300px;height: 200px;text-align: center;border-right: 1px solid #ddd}
+.softwareLeft h3{padding-top: 70px;font-size: 24px;font-weight: normal;color:#333}
+.softwareLeft p{color:#888;font-size: 14px;padding-top: 10px}
+.softwareIcon{padding:25px 100px;border-right: 1px solid #ddd}
+.softwareRight p{font-size: 14px;line-height: 25px;color:#888;padding:55px;}
+/**********/
+.software2{height: 80px;line-height: 80px;overflow: hidden;background: #fff;margin-top: 20px;border:1px solid #ddd}
+.software2 .softwareLeft{width: 300px;text-align: center;border-right: 1px solid #ddd}
+.software2 h4{font-size: 24px;font-weight: normal;color:#333}
+.software2 .softwareIcon2{line-height: 80px !important;padding-left: 100px;color:#888;font-size: 14px}
+.softwareThree h5{font-size: 18px;padding:20px 0px;font-weight: normal;}
+.softwareThree p{font-size: 12px;color:#888;line-height: 25px}
+/**********/
+.contentMain{position: relative;}
+.productCon{position: relative;top: -135px;z-index: 3;width:1200px;height: 315px;background: url("productCon.gif")/*tpa=http://www.81994.com/skin/images/productCon.gif*/ no-repeat center center;left: 50%;margin-left: -600px;}
+.productCon ul{overflow: hidden;}
+.productCon ul li{width: 300px;display: inline-block;float: left}
+.pro01{padding:0px;}
+.pro01 p{color:#f3f3f3;}
+.pro01 span{font-size: 50px;color: #fff;padding: 40px 40px 0px 40px;}
+.pro01 p{font-size: 24px;padding:10px 40px;}
+.pro01 i{padding:40px 40px 0px 40px;color:#fff;position: relative;top: 40px}
+.pro02 i{width: 60px;display: inline-block;height: 60px;border-radius: 100%;line-height: 60px;font-size: 25px;border:2px solid #fff;font-style: normal;color:#fff;text-align: center;}
+.pro02{text-align: center;}
+.pro02 i{margin:40px 0px 20px 0px}
+.pro02 h3{color:#fff;font-weight: normal;padding:10px 0px;}
+.pro02 p{color:#fff;font-size: 13px;line-height: 22px;padding:0px 30px }
+/********/
+.productTwo{padding:0px 0px 20px 0px;text-align: center;top: -100px;position: relative;}
+/********/
+.productThreeCon{background: #00b296;padding:50px 0px}
+.productThreeCon .productThree{text-align: center;}
+.productThree ul{overflow: hidden;}
+.productThree ul li{width: 200px;display: inline-block;float: left;margin-right: 100px;margin-bottom: 50px;height: 220px}
+.productThree ul li i{padding:15px 0px}
+.productThree ul li h4{font-size: 24px;color:#fff;font-weight: normal;padding:20px 0px}
+.productThree ul li p{font-size: 12px;line-height: 23px;padding:0px 20px;color:#fff;}
+.productThree .publicH4 h3{color:#fff}
+.productThree  span{color:#fff}
+/************/
+.productFourCon{background: #f3f3f3;padding:50px 0px;text-align: center;}
+.productFour{text-align: center;}
+/*********/
+.productSixCon{}
+.productSix {}
+.productSix .productList{overflow: hidden;padding: 20px 0px;border-bottom: 1px solid #ddd}
+.productSix .productsum{width: 600px;position:relative;}
+.productsum h2 i{margin-right: 10px;display: inline-block;width: 60px;height: 60px;border-radius: 100%;line-height: 60px;font-size: 30px;color:#fff;background: #3fbff0;font-style: normal;font-weight: normal;text-align: center;}
+.productsum h2{padding-left: 20px;font-size: 36px;font-weight: normal;color:#333;padding-bottom: 20px;margin-top: 65px}
+.productsum p{font-size: 14px;color:#888;padding:0px 20px;line-height: 36px;letter-spacing: 2px;}
+.productsum{padding:50px 0px}
+.productList:last-child{border-bottom: none}
+/***********/
+.productSviceCon{background: url("probg.gif")/*tpa=http://www.81994.com/skin/images/probg.gif*/ no-repeat center center;height: 692px;margin: 50px 0px}
+.productSviceCon .productSvice{text-align: center;padding: 50px 0px}
+.productSvice .publicH4 h3{color:#fff}
+.productSvice span{color:#fff;}
+.productSvice ul{overflow: hidden;padding-bottom: 70px}
+.productSvice ul li{display: block;float: left;width: 250px;background: #fff;height: 260px;position: relative;z-index: 1;margin-right: 50px;}
+.productSvice ul li img{padding:5px 0px}
+.productSvice ul li h5{font-size: 15px;padding:0px 10px;padding-bottom: 10px;text-align: left;font-weight: normal;color:#333}
+.productSvice >ul >li  >p{font-size: 12px;color:#888 !important;padding:0px 10px;text-align: left;}
+.productSvice a{display: inline-block;width: 300px;height: 50px;line-height: 50px;border-radius: 25px;border:2px solid #fff;text-align: center;font-size: 18px;color:#fff;}
+.productSvice  a:hover{background: #fff;color:#333}
+.productHide{position: absolute;z-index: 2;background-color:rgba(0,0,0,.8);color:#fff;width: 100%;height: 100%;top: 0;display: none;}
+.productHide span{padding:10px;color:#fff;text-align: left;display: block;}
+.productHide h6{padding:10px;color:#fff;font-size: 16px;font-weight: normal;text-align: left;}
+.productHide p{font-size: 12px;padding:10px;text-align: left;color:#fff !important;}
+/***********/
+
+.productziCon{padding:50px 0px;background: #f3f3f3}
+.productZi{text-align: center;padding:50px 0px; }
+.productZi ul {overflow: hidden;}
+.productZi ul li{display: block;float: left;width: 280px;margin-right: 10px;}
+.productZi ul li p{font-size: 16px;color:#333;padding:10px 0px}
+/***********/
+.newsList{color:#000;margin-bottom: 15px;}
+.newsImg{width: 210px; height: 148px; border:1px solid #ddd;background: #fff;text-align: center;}
+.newsImg img{position: relative;top: 20px;}
+.newsText{width: 860px;border: 1px solid #ddd;background: #fff;height: 148px;border-right: none;margin-left: 5px;}
+.newsH3{width: 148px;text-align: center;}
+.newsH3 h2{font-size: 42px;position: relative;padding-top: 32px;}
+.newsH3 h6{font-size: 12px;font-weight: normal;color:#888}
+.newsCenter{position: relative;top: 45px;}
+.newsCenter h3{font-size: 18px;font-weight: normal;}
+.newsCenter p{color:#888;font-size: 12px;line-height: 25px;}
+.newsMoer{width: 120px;height: 148px;text-align: center;background: #fff;border:1px solid #ddd;border-left: none;position: relative;}
+
+.newsMoera{width: 100%;}
+.newsMoer a img{position: absolute;top: 50px;}
+
+
+/********/
+.pageCon {text-align: center;}
+.pageCon ul{overflow: hidden;}
+.pageCon ul li{text-align: center;display: inline-block;}
+.pageCon ul li a{width: 34px;height: 34px;background: #fff;display: block;text-align: center;line-height: 34px;font-size: 14px;color:#888888}
+.pageCon .active{}
+.pageCon .active a,.pageCon ul li a:hover{color:#fff;background: #32c7e9;display: inline-block;}
+.pageCon ul .pageactive a{width: 60px;}
+
+
+/******/
+.goumaip{
+	text-align: center;
+	position: relative;
+	top: 150px;
+	color:#fff;
+}
+.goumaip p{
+	font-size: 22px;
+	line-height: 38px;
+}
+.goumaip h3{
+	font-size: 48px;
+	font-weight: normal;
+}
+.tableId{
+	width: 1100px;min-width: 1100px;
+margin: 0 auto;
+}
+.tableId thead{margin-bottom: 20px;}
+.tableId thead tr{background: #32c7e9;height: 40px;color:#FFF;font-weight: normal;}
+.tableId thead tr th{color:#FFF;font-weight: normal;font-size: 14px;border-right:1px solid #eee;}
+.tableId tbody{background: #fff;position: relative;top: 20px;}
+.tableId tbody tr td{line-height: 90px; height: 90px;border-right: 1px solid #eee;border-bottom: 1px solid #eee;}
+
+.fourteenList{overflow: hidden;}
+.fourteenList ul{position: relative;width: 1500px;}
+.fourteenList ul li{display: inline-block;float: left;width: 230px;position: relative;height: 160px;z-index: 9;}
+.fourteenList ul li h3{font-size: 22px;color:#888;font-weight: normal;}
+.fourteenList ul li p{font-size: 12px;line-height: 25px;padding:20px;color:#888;text-align: left;}
+
+
+.jiamengList{overflow: hidden;position: relative;padding-bottom: 100px;}
+.jiamengList li{display: inline-block;float: left;width: 298px;position: relative;}
+.jiamengList li h2{font-size: 26px;font-weight: normal;}
+.jiamengList li span{}
+.jiamengList li p{padding:10px 25px ;font-size: 13px;color:#666;line-height: 25px;text-align: left;}
